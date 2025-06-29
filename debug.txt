@@ -1,0 +1,1666 @@
+[32m#-------------------------------------------------------------#[0m
+[32m#                        31/07/2023                           #[0m
+[32m#-------------------------------------------------------------#[0m
+[32m#   By: ZLCube, xsJacksx, S4vitar, MrPr1ngles, Elisaelias02   #[0m
+[32m#-------------------------------------------------------------#[0m
+[32m#    ___        _       ______                                #[0m
+[32m#   / _ \      | |      | ___ \                               #[0m
+[32m#  / /_\ \_   _| |_ ___ | |_/ / ___ _ ____      ___ __ ___    #[0m
+[32m#  |  _  | | | | __/ _ \| ___ \/ __| '_ \ \ /\ / / '_ ' _ \   #[0m
+[32m#  | | | | |_| | || (_) | |_/ /\__ \ |_) \ V  V /| | | | | |  #[0m
+[32m#  \_| |_/\__,_|\__\___/\____/ |___/ .__/ \_/\_/ |_| |_| |_|  #[0m
+[32m#                                  | |                        #[0m
+[32m#                                  |_|                        #[0m
+[32m#                                                             #[0m
+[32m#-------------------------------------------------------------#[0m
+[32m# SELECCIONE SU SISTEMA OPERATIVO:                            #[0m
+[32m#-------------------------------------------------------------#[0m
+[32m# (1) Kali                                                    #[0m
+[32m# (2) Parrot                                                  #[0m
+[32m#-------------------------------------------------------------#[0m
+> 
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Hit:1 https://deb.parrot.sh/parrot lory InRelease
+Hit:2 https://deb.parrot.sh/direct/parrot lory-security InRelease
+Hit:3 https://deb.parrot.sh/parrot lory-backports InRelease
+Reading package lists...
+Building dependency tree...
+Reading state information...
+All packages are up to date.
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Hit:1 https://deb.parrot.sh/parrot lory InRelease
+Hit:2 https://deb.parrot.sh/direct/parrot lory-security InRelease
+Hit:3 https://deb.parrot.sh/parrot lory-backports InRelease
+Reading package lists...
+Building dependency tree...
+Reading state information...
+All packages are up to date.
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  golang-1.22-go golang-1.22-src libglapi-mesa lp-solve
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+The following packages were automatically installed and are no longer required:
+  golang-1.22-go golang-1.22-src libglapi-mesa lp-solve
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+The following packages were automatically installed and are no longer required:
+  golang-1.22-go golang-1.22-src libglapi-mesa lp-solve
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+build-essential is already the newest version (12.9).
+build-essential set to manually installed.
+git is already the newest version (1:2.39.5-0+deb12u2).
+The following packages were automatically installed and are no longer required:
+  golang-1.22-go golang-1.22-src libglapi-mesa lp-solve
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  libxcb-ewmh2 libxcb-render0-dev libxcb-util-dev libxcb-xtest0 vim-runtime
+Suggested packages:
+  libasound2-doc ctags vim-doc vim-scripts
+The following NEW packages will be installed:
+  libasound2-dev libxcb-ewmh-dev libxcb-ewmh2 libxcb-icccm4-dev
+  libxcb-keysyms1-dev libxcb-randr0-dev libxcb-render0-dev libxcb-shape0-dev
+  libxcb-util-dev libxcb-util0-dev libxcb-xinerama0-dev libxcb-xtest0
+  libxcb-xtest0-dev vim vim-runtime
+0 upgraded, 15 newly installed, 0 to remove and 0 not upgraded.
+Need to get 9,528 kB of archives.
+After this operation, 43.4 MB of additional disk space will be used.
+Get:1 https://deb.parrot.sh/parrot lory/main amd64 libasound2-dev amd64 1.2.8-1+b1 [110 kB]
+Get:2 https://deb.parrot.sh/parrot lory/main amd64 libxcb-ewmh2 amd64 0.4.1-1.1 [33.8 kB]
+Get:3 https://deb.parrot.sh/parrot lory/main amd64 libxcb-ewmh-dev amd64 0.4.1-1.1 [40.3 kB]
+Get:4 https://deb.parrot.sh/parrot lory/main amd64 libxcb-icccm4-dev amd64 0.4.1-1.1 [30.1 kB]
+Get:5 https://deb.parrot.sh/parrot lory/main amd64 libxcb-keysyms1-dev amd64 0.4.0-1+b2 [16.2 kB]
+Get:6 https://deb.parrot.sh/parrot lory/main amd64 libxcb-render0-dev amd64 1.15-1 [118 kB]
+Get:7 https://deb.parrot.sh/parrot lory/main amd64 libxcb-randr0-dev amd64 1.15-1 [121 kB]
+Get:8 https://deb.parrot.sh/parrot lory/main amd64 libxcb-shape0-dev amd64 1.15-1 [107 kB]
+Get:9 https://deb.parrot.sh/parrot lory/main amd64 libxcb-util-dev amd64 0.4.0-1+b1 [24.6 kB]
+Get:10 https://deb.parrot.sh/parrot lory/main amd64 libxcb-util0-dev amd64 0.4.0-1+b1 [16.9 kB]
+Get:11 https://deb.parrot.sh/parrot lory/main amd64 libxcb-xinerama0-dev amd64 1.15-1 [106 kB]
+Get:12 https://deb.parrot.sh/parrot lory/main amd64 libxcb-xtest0 amd64 1.15-1 [105 kB]
+Get:13 https://deb.parrot.sh/parrot lory/main amd64 libxcb-xtest0-dev amd64 1.15-1 [105 kB]
+Get:14 https://deb.parrot.sh/parrot lory/main amd64 vim-runtime all 2:9.0.1378-2+deb12u2 [7,027 kB]
+Get:15 https://deb.parrot.sh/parrot lory/main amd64 vim amd64 2:9.0.1378-2+deb12u2 [1,568 kB]
+Fetched 9,528 kB in 10s (993 kB/s)
+Selecting previously unselected package libasound2-dev:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 580482 files and directories currently installed.)
+Preparing to unpack .../00-libasound2-dev_1.2.8-1+b1_amd64.deb ...
+Unpacking libasound2-dev:amd64 (1.2.8-1+b1) ...
+Selecting previously unselected package libxcb-ewmh2:amd64.
+Preparing to unpack .../01-libxcb-ewmh2_0.4.1-1.1_amd64.deb ...
+Unpacking libxcb-ewmh2:amd64 (0.4.1-1.1) ...
+Selecting previously unselected package libxcb-ewmh-dev:amd64.
+Preparing to unpack .../02-libxcb-ewmh-dev_0.4.1-1.1_amd64.deb ...
+Unpacking libxcb-ewmh-dev:amd64 (0.4.1-1.1) ...
+Selecting previously unselected package libxcb-icccm4-dev:amd64.
+Preparing to unpack .../03-libxcb-icccm4-dev_0.4.1-1.1_amd64.deb ...
+Unpacking libxcb-icccm4-dev:amd64 (0.4.1-1.1) ...
+Selecting previously unselected package libxcb-keysyms1-dev:amd64.
+Preparing to unpack .../04-libxcb-keysyms1-dev_0.4.0-1+b2_amd64.deb ...
+Unpacking libxcb-keysyms1-dev:amd64 (0.4.0-1+b2) ...
+Selecting previously unselected package libxcb-render0-dev:amd64.
+Preparing to unpack .../05-libxcb-render0-dev_1.15-1_amd64.deb ...
+Unpacking libxcb-render0-dev:amd64 (1.15-1) ...
+Selecting previously unselected package libxcb-randr0-dev:amd64.
+Preparing to unpack .../06-libxcb-randr0-dev_1.15-1_amd64.deb ...
+Unpacking libxcb-randr0-dev:amd64 (1.15-1) ...
+Selecting previously unselected package libxcb-shape0-dev:amd64.
+Preparing to unpack .../07-libxcb-shape0-dev_1.15-1_amd64.deb ...
+Unpacking libxcb-shape0-dev:amd64 (1.15-1) ...
+Selecting previously unselected package libxcb-util-dev:amd64.
+Preparing to unpack .../08-libxcb-util-dev_0.4.0-1+b1_amd64.deb ...
+Unpacking libxcb-util-dev:amd64 (0.4.0-1+b1) ...
+Selecting previously unselected package libxcb-util0-dev:amd64.
+Preparing to unpack .../09-libxcb-util0-dev_0.4.0-1+b1_amd64.deb ...
+Unpacking libxcb-util0-dev:amd64 (0.4.0-1+b1) ...
+Selecting previously unselected package libxcb-xinerama0-dev:amd64.
+Preparing to unpack .../10-libxcb-xinerama0-dev_1.15-1_amd64.deb ...
+Unpacking libxcb-xinerama0-dev:amd64 (1.15-1) ...
+Selecting previously unselected package libxcb-xtest0:amd64.
+Preparing to unpack .../11-libxcb-xtest0_1.15-1_amd64.deb ...
+Unpacking libxcb-xtest0:amd64 (1.15-1) ...
+Selecting previously unselected package libxcb-xtest0-dev:amd64.
+Preparing to unpack .../12-libxcb-xtest0-dev_1.15-1_amd64.deb ...
+Unpacking libxcb-xtest0-dev:amd64 (1.15-1) ...
+Selecting previously unselected package vim-runtime.
+Preparing to unpack .../13-vim-runtime_2%3a9.0.1378-2+deb12u2_all.deb ...
+Adding 'diversion of /usr/share/vim/vim90/doc/help.txt to /usr/share/vim/vim90/doc/help.txt.vim-tiny by vim-runtime'
+Adding 'diversion of /usr/share/vim/vim90/doc/tags to /usr/share/vim/vim90/doc/tags.vim-tiny by vim-runtime'
+Unpacking vim-runtime (2:9.0.1378-2+deb12u2) ...
+Selecting previously unselected package vim.
+Preparing to unpack .../14-vim_2%3a9.0.1378-2+deb12u2_amd64.deb ...
+Unpacking vim (2:9.0.1378-2+deb12u2) ...
+Setting up libxcb-xinerama0-dev:amd64 (1.15-1) ...
+Setting up libxcb-keysyms1-dev:amd64 (0.4.0-1+b2) ...
+Setting up libxcb-util-dev:amd64 (0.4.0-1+b1) ...
+Setting up libxcb-render0-dev:amd64 (1.15-1) ...
+Setting up libxcb-xtest0:amd64 (1.15-1) ...
+Setting up libxcb-icccm4-dev:amd64 (0.4.1-1.1) ...
+Setting up libxcb-shape0-dev:amd64 (1.15-1) ...
+Setting up libxcb-ewmh2:amd64 (0.4.1-1.1) ...
+Setting up vim-runtime (2:9.0.1378-2+deb12u2) ...
+Setting up libasound2-dev:amd64 (1.2.8-1+b1) ...
+Setting up libxcb-xtest0-dev:amd64 (1.15-1) ...
+Setting up libxcb-util0-dev:amd64 (0.4.0-1+b1) ...
+Setting up libxcb-ewmh-dev:amd64 (0.4.1-1.1) ...
+Setting up vim (2:9.0.1378-2+deb12u2) ...
+Setting up libxcb-randr0-dev:amd64 (1.15-1) ...
+Processing triggers for man-db (2.11.2-2) ...
+Processing triggers for libc-bin (2.36-9+deb12u12) ...
+Scanning application launchers
+Removing duplicate launchers or broken launchers
+ [-] Missing executable file kcmshell5 at launcher /usr/share/applications/kcm_trash.desktop
+Launchers are updated
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+pkg-config is already the newest version (1.8.1-1).
+pkg-config set to manually installed.
+libxcb1-dev is already the newest version (1.15-1).
+libxcb1-dev set to manually installed.
+libxcb-util0-dev is already the newest version (0.4.0-1+b1).
+libxcb-randr0-dev is already the newest version (1.15-1).
+libxcb-ewmh-dev is already the newest version (0.4.1-1.1).
+libxcb-icccm4-dev is already the newest version (0.4.1-1.1).
+libasound2-dev is already the newest version (1.2.8-1+b1).
+libuv1-dev is already the newest version (1.44.2-1+deb12u1).
+libuv1-dev set to manually installed.
+The following packages were automatically installed and are no longer required:
+  golang-1.22-go golang-1.22-src libglapi-mesa lp-solve
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  libblkid-dev libbrotli-dev libfontconfig-dev libfreetype-dev libglib2.0-dev
+  libglib2.0-dev-bin libjsoncpp25 libmount-dev libmpdclient2 libnl-3-dev
+  libpcre2-dev libpcre2-posix3 libpixman-1-dev libpng-dev libpng-tools
+  librhash0 libselinux1-dev libsepol-dev libxcb-cursor0
+  libxcb-render-util0-dev libxcb-shm0-dev libxcb-xfixes0-dev libxcb-xrm0
+  libxrender-dev python3-alabaster python3-imagesize python3-snowballstemmer
+  sphinx-common uuid-dev
+Suggested packages:
+  cmake-doc cmake-format elpa-cmake-mode ninja-build libcairo2-doc
+  freetype2-doc libgirepository1.0-dev libglib2.0-doc libxml2-utils
+  python3-stemmer dvipng imagemagick-6.q16 latexmk python3-sphinx-rtd-theme
+  sphinx-doc tex-gyre texlive-fonts-recommended texlive-latex-extra
+  texlive-latex-recommended texlive-plain-generic
+The following NEW packages will be installed:
+  cmake cmake-data libblkid-dev libbrotli-dev libcairo2-dev libfontconfig-dev
+  libfreetype-dev libglib2.0-dev libglib2.0-dev-bin libjsoncpp-dev
+  libjsoncpp25 libmount-dev libmpdclient-dev libmpdclient2 libnl-3-dev
+  libnl-genl-3-dev libpcre2-dev libpcre2-posix3 libpixman-1-dev libpng-dev
+  libpng-tools libpulse-dev librhash0 libselinux1-dev libsepol-dev
+  libxcb-composite0-dev libxcb-cursor-dev libxcb-cursor0 libxcb-image0-dev
+  libxcb-render-util0-dev libxcb-shm0-dev libxcb-xfixes0-dev libxcb-xkb-dev
+  libxcb-xrm-dev libxcb-xrm0 libxrender-dev polybar python3-alabaster
+  python3-imagesize python3-snowballstemmer python3-sphinx python3-xcbgen
+  sphinx-common uuid-dev xcb-proto
+0 upgraded, 45 newly installed, 0 to remove and 0 not upgraded.
+Need to get 20.3 MB of archives.
+After this operation, 81.1 MB of additional disk space will be used.
+Get:1 https://deb.parrot.sh/parrot lory/main amd64 libjsoncpp25 amd64 1.9.5-4 [78.6 kB]
+Get:2 https://deb.parrot.sh/parrot lory/main amd64 librhash0 amd64 1.4.3-3 [134 kB]
+Get:3 https://deb.parrot.sh/parrot lory/main amd64 cmake-data all 3.25.1-1 [2,026 kB]
+Get:4 https://deb.parrot.sh/parrot lory/main amd64 cmake amd64 3.25.1-1 [8,692 kB]
+Get:5 https://deb.parrot.sh/parrot lory/main amd64 uuid-dev amd64 2.38.1-5+deb12u3 [40.0 kB]
+Get:6 https://deb.parrot.sh/parrot lory/main amd64 libblkid-dev amd64 2.38.1-5+deb12u3 [179 kB]
+Get:7 https://deb.parrot.sh/parrot lory/main amd64 libbrotli-dev amd64 1.0.9-2+b6 [287 kB]
+Get:8 https://deb.parrot.sh/parrot lory/main amd64 libpng-dev amd64 1.6.39-2 [359 kB]
+Get:9 https://deb.parrot.sh/parrot lory/main amd64 libfreetype-dev amd64 2.12.1+dfsg-5+deb12u4 [566 kB]
+Get:10 https://deb.parrot.sh/parrot lory/main amd64 libfontconfig-dev amd64 2.14.1-4 [409 kB]
+Get:11 https://deb.parrot.sh/parrot lory/main amd64 libglib2.0-dev-bin amd64 2.74.6-2+deb12u6 [152 kB]
+Get:12 https://deb.parrot.sh/parrot lory/main amd64 libsepol-dev amd64 3.4-2.1 [351 kB]
+Get:13 https://deb.parrot.sh/parrot lory/main amd64 libpcre2-posix3 amd64 10.42-1 [55.4 kB]
+Get:14 https://deb.parrot.sh/parrot lory/main amd64 libpcre2-dev amd64 10.42-1 [753 kB]
+Get:15 https://deb.parrot.sh/parrot lory/main amd64 libselinux1-dev amd64 3.4-1+b6 [157 kB]
+Get:16 https://deb.parrot.sh/parrot lory/main amd64 libmount-dev amd64 2.38.1-5+deb12u3 [22.6 kB]
+Get:17 https://deb.parrot.sh/parrot lory/main amd64 libglib2.0-dev amd64 2.74.6-2+deb12u6 [1,605 kB]
+Get:18 https://deb.parrot.sh/parrot lory/main amd64 libpixman-1-dev amd64 0.42.2-1 [564 kB]
+Get:19 https://deb.parrot.sh/parrot lory/main amd64 libxcb-shm0-dev amd64 1.15-1 [107 kB]
+Get:20 https://deb.parrot.sh/parrot lory/main amd64 libxrender-dev amd64 1:0.9.10-1.1 [41.1 kB]
+Get:21 https://deb.parrot.sh/parrot lory/main amd64 libcairo2-dev amd64 1.16.0-7 [727 kB]
+Get:22 https://deb.parrot.sh/parrot lory/main amd64 libjsoncpp-dev amd64 1.9.5-4 [26.4 kB]
+Get:23 https://deb.parrot.sh/parrot lory/main amd64 libmpdclient2 amd64 2.20-1+b1 [48.2 kB]
+Get:24 https://deb.parrot.sh/parrot lory/main amd64 libmpdclient-dev amd64 2.20-1+b1 [37.0 kB]
+Get:25 https://deb.parrot.sh/parrot lory/main amd64 libnl-3-dev amd64 3.7.0-0.2+b1 [104 kB]
+Get:26 https://deb.parrot.sh/parrot lory/main amd64 libnl-genl-3-dev amd64 3.7.0-0.2+b1 [21.0 kB]
+Get:27 https://deb.parrot.sh/parrot lory/main amd64 libpng-tools amd64 1.6.39-2 [127 kB]
+Get:28 https://deb.parrot.sh/parrot lory/main amd64 libpulse-dev amd64 16.1+dfsg1-2+b1 [89.5 kB]
+Get:29 https://deb.parrot.sh/parrot lory/main amd64 libxcb-xfixes0-dev amd64 1.15-1 [112 kB]
+Get:30 https://deb.parrot.sh/parrot lory/main amd64 libxcb-composite0-dev amd64 1.15-1 [106 kB]
+Get:31 https://deb.parrot.sh/parrot lory/main amd64 libxcb-cursor0 amd64 0.1.4-1 [16.7 kB]
+Get:32 https://deb.parrot.sh/parrot lory/main amd64 libxcb-render-util0-dev amd64 0.3.9-1+b1 [18.3 kB]
+Get:33 https://deb.parrot.sh/parrot lory/main amd64 libxcb-image0-dev amd64 0.4.0-2 [29.3 kB]
+Get:34 https://deb.parrot.sh/parrot lory/main amd64 libxcb-cursor-dev amd64 0.1.4-1 [19.1 kB]
+Get:35 https://deb.parrot.sh/parrot lory/main amd64 libxcb-xkb-dev amd64 1.15-1 [139 kB]
+Get:36 https://deb.parrot.sh/parrot lory/main amd64 libxcb-xrm0 amd64 1.0-3+b1 [25.1 kB]
+Get:37 https://deb.parrot.sh/parrot lory/main amd64 libxcb-xrm-dev amd64 1.0-3+b1 [28.0 kB]
+Get:38 https://deb.parrot.sh/parrot lory/main amd64 polybar amd64 3.6.3-1 [692 kB]
+Get:39 https://deb.parrot.sh/parrot lory/main amd64 python3-alabaster all 0.7.12-1 [20.8 kB]
+Get:40 https://deb.parrot.sh/parrot lory/main amd64 python3-imagesize all 1.4.1-1 [6,688 B]
+Get:41 https://deb.parrot.sh/parrot lory/main amd64 python3-snowballstemmer all 2.2.0-2 [57.8 kB]
+Get:42 https://deb.parrot.sh/parrot lory/main amd64 sphinx-common all 5.3.0-4 [653 kB]
+Get:43 https://deb.parrot.sh/parrot lory/main amd64 python3-sphinx all 5.3.0-4 [549 kB]
+Get:44 https://deb.parrot.sh/parrot lory/main amd64 python3-xcbgen all 1.15.2-1 [19.7 kB]
+Get:45 https://deb.parrot.sh/parrot lory/main amd64 xcb-proto all 1.15.2-1 [85.8 kB]
+Fetched 20.3 MB in 15s (1,371 kB/s)
+Selecting previously unselected package libjsoncpp25:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 582735 files and directories currently installed.)
+Preparing to unpack .../00-libjsoncpp25_1.9.5-4_amd64.deb ...
+Unpacking libjsoncpp25:amd64 (1.9.5-4) ...
+Selecting previously unselected package librhash0:amd64.
+Preparing to unpack .../01-librhash0_1.4.3-3_amd64.deb ...
+Unpacking librhash0:amd64 (1.4.3-3) ...
+Selecting previously unselected package cmake-data.
+Preparing to unpack .../02-cmake-data_3.25.1-1_all.deb ...
+Unpacking cmake-data (3.25.1-1) ...
+Selecting previously unselected package cmake.
+Preparing to unpack .../03-cmake_3.25.1-1_amd64.deb ...
+Unpacking cmake (3.25.1-1) ...
+Selecting previously unselected package uuid-dev:amd64.
+Preparing to unpack .../04-uuid-dev_2.38.1-5+deb12u3_amd64.deb ...
+Unpacking uuid-dev:amd64 (2.38.1-5+deb12u3) ...
+Selecting previously unselected package libblkid-dev:amd64.
+Preparing to unpack .../05-libblkid-dev_2.38.1-5+deb12u3_amd64.deb ...
+Unpacking libblkid-dev:amd64 (2.38.1-5+deb12u3) ...
+Selecting previously unselected package libbrotli-dev:amd64.
+Preparing to unpack .../06-libbrotli-dev_1.0.9-2+b6_amd64.deb ...
+Unpacking libbrotli-dev:amd64 (1.0.9-2+b6) ...
+Selecting previously unselected package libpng-dev:amd64.
+Preparing to unpack .../07-libpng-dev_1.6.39-2_amd64.deb ...
+Unpacking libpng-dev:amd64 (1.6.39-2) ...
+Selecting previously unselected package libfreetype-dev:amd64.
+Preparing to unpack .../08-libfreetype-dev_2.12.1+dfsg-5+deb12u4_amd64.deb ...
+Unpacking libfreetype-dev:amd64 (2.12.1+dfsg-5+deb12u4) ...
+Selecting previously unselected package libfontconfig-dev:amd64.
+Preparing to unpack .../09-libfontconfig-dev_2.14.1-4_amd64.deb ...
+Unpacking libfontconfig-dev:amd64 (2.14.1-4) ...
+Selecting previously unselected package libglib2.0-dev-bin.
+Preparing to unpack .../10-libglib2.0-dev-bin_2.74.6-2+deb12u6_amd64.deb ...
+Unpacking libglib2.0-dev-bin (2.74.6-2+deb12u6) ...
+Selecting previously unselected package libsepol-dev:amd64.
+Preparing to unpack .../11-libsepol-dev_3.4-2.1_amd64.deb ...
+Unpacking libsepol-dev:amd64 (3.4-2.1) ...
+Selecting previously unselected package libpcre2-posix3:amd64.
+Preparing to unpack .../12-libpcre2-posix3_10.42-1_amd64.deb ...
+Unpacking libpcre2-posix3:amd64 (10.42-1) ...
+Selecting previously unselected package libpcre2-dev:amd64.
+Preparing to unpack .../13-libpcre2-dev_10.42-1_amd64.deb ...
+Unpacking libpcre2-dev:amd64 (10.42-1) ...
+Selecting previously unselected package libselinux1-dev:amd64.
+Preparing to unpack .../14-libselinux1-dev_3.4-1+b6_amd64.deb ...
+Unpacking libselinux1-dev:amd64 (3.4-1+b6) ...
+Selecting previously unselected package libmount-dev:amd64.
+Preparing to unpack .../15-libmount-dev_2.38.1-5+deb12u3_amd64.deb ...
+Unpacking libmount-dev:amd64 (2.38.1-5+deb12u3) ...
+Selecting previously unselected package libglib2.0-dev:amd64.
+Preparing to unpack .../16-libglib2.0-dev_2.74.6-2+deb12u6_amd64.deb ...
+Unpacking libglib2.0-dev:amd64 (2.74.6-2+deb12u6) ...
+Selecting previously unselected package libpixman-1-dev:amd64.
+Preparing to unpack .../17-libpixman-1-dev_0.42.2-1_amd64.deb ...
+Unpacking libpixman-1-dev:amd64 (0.42.2-1) ...
+Selecting previously unselected package libxcb-shm0-dev:amd64.
+Preparing to unpack .../18-libxcb-shm0-dev_1.15-1_amd64.deb ...
+Unpacking libxcb-shm0-dev:amd64 (1.15-1) ...
+Selecting previously unselected package libxrender-dev:amd64.
+Preparing to unpack .../19-libxrender-dev_1%3a0.9.10-1.1_amd64.deb ...
+Unpacking libxrender-dev:amd64 (1:0.9.10-1.1) ...
+Selecting previously unselected package libcairo2-dev:amd64.
+Preparing to unpack .../20-libcairo2-dev_1.16.0-7_amd64.deb ...
+Unpacking libcairo2-dev:amd64 (1.16.0-7) ...
+Selecting previously unselected package libjsoncpp-dev:amd64.
+Preparing to unpack .../21-libjsoncpp-dev_1.9.5-4_amd64.deb ...
+Unpacking libjsoncpp-dev:amd64 (1.9.5-4) ...
+Selecting previously unselected package libmpdclient2:amd64.
+Preparing to unpack .../22-libmpdclient2_2.20-1+b1_amd64.deb ...
+Unpacking libmpdclient2:amd64 (2.20-1+b1) ...
+Selecting previously unselected package libmpdclient-dev:amd64.
+Preparing to unpack .../23-libmpdclient-dev_2.20-1+b1_amd64.deb ...
+Unpacking libmpdclient-dev:amd64 (2.20-1+b1) ...
+Selecting previously unselected package libnl-3-dev:amd64.
+Preparing to unpack .../24-libnl-3-dev_3.7.0-0.2+b1_amd64.deb ...
+Unpacking libnl-3-dev:amd64 (3.7.0-0.2+b1) ...
+Selecting previously unselected package libnl-genl-3-dev:amd64.
+Preparing to unpack .../25-libnl-genl-3-dev_3.7.0-0.2+b1_amd64.deb ...
+Unpacking libnl-genl-3-dev:amd64 (3.7.0-0.2+b1) ...
+Selecting previously unselected package libpng-tools.
+Preparing to unpack .../26-libpng-tools_1.6.39-2_amd64.deb ...
+Unpacking libpng-tools (1.6.39-2) ...
+Selecting previously unselected package libpulse-dev:amd64.
+Preparing to unpack .../27-libpulse-dev_16.1+dfsg1-2+b1_amd64.deb ...
+Unpacking libpulse-dev:amd64 (16.1+dfsg1-2+b1) ...
+Selecting previously unselected package libxcb-xfixes0-dev:amd64.
+Preparing to unpack .../28-libxcb-xfixes0-dev_1.15-1_amd64.deb ...
+Unpacking libxcb-xfixes0-dev:amd64 (1.15-1) ...
+Selecting previously unselected package libxcb-composite0-dev:amd64.
+Preparing to unpack .../29-libxcb-composite0-dev_1.15-1_amd64.deb ...
+Unpacking libxcb-composite0-dev:amd64 (1.15-1) ...
+Selecting previously unselected package libxcb-cursor0:amd64.
+Preparing to unpack .../30-libxcb-cursor0_0.1.4-1_amd64.deb ...
+Unpacking libxcb-cursor0:amd64 (0.1.4-1) ...
+Selecting previously unselected package libxcb-render-util0-dev:amd64.
+Preparing to unpack .../31-libxcb-render-util0-dev_0.3.9-1+b1_amd64.deb ...
+Unpacking libxcb-render-util0-dev:amd64 (0.3.9-1+b1) ...
+Selecting previously unselected package libxcb-image0-dev:amd64.
+Preparing to unpack .../32-libxcb-image0-dev_0.4.0-2_amd64.deb ...
+Unpacking libxcb-image0-dev:amd64 (0.4.0-2) ...
+Selecting previously unselected package libxcb-cursor-dev:amd64.
+Preparing to unpack .../33-libxcb-cursor-dev_0.1.4-1_amd64.deb ...
+Unpacking libxcb-cursor-dev:amd64 (0.1.4-1) ...
+Selecting previously unselected package libxcb-xkb-dev:amd64.
+Preparing to unpack .../34-libxcb-xkb-dev_1.15-1_amd64.deb ...
+Unpacking libxcb-xkb-dev:amd64 (1.15-1) ...
+Selecting previously unselected package libxcb-xrm0:amd64.
+Preparing to unpack .../35-libxcb-xrm0_1.0-3+b1_amd64.deb ...
+Unpacking libxcb-xrm0:amd64 (1.0-3+b1) ...
+Selecting previously unselected package libxcb-xrm-dev:amd64.
+Preparing to unpack .../36-libxcb-xrm-dev_1.0-3+b1_amd64.deb ...
+Unpacking libxcb-xrm-dev:amd64 (1.0-3+b1) ...
+Selecting previously unselected package polybar.
+Preparing to unpack .../37-polybar_3.6.3-1_amd64.deb ...
+Unpacking polybar (3.6.3-1) ...
+Selecting previously unselected package python3-alabaster.
+Preparing to unpack .../38-python3-alabaster_0.7.12-1_all.deb ...
+Unpacking python3-alabaster (0.7.12-1) ...
+Selecting previously unselected package python3-imagesize.
+Preparing to unpack .../39-python3-imagesize_1.4.1-1_all.deb ...
+Unpacking python3-imagesize (1.4.1-1) ...
+Selecting previously unselected package python3-snowballstemmer.
+Preparing to unpack .../40-python3-snowballstemmer_2.2.0-2_all.deb ...
+Unpacking python3-snowballstemmer (2.2.0-2) ...
+Selecting previously unselected package sphinx-common.
+Preparing to unpack .../41-sphinx-common_5.3.0-4_all.deb ...
+Unpacking sphinx-common (5.3.0-4) ...
+Selecting previously unselected package python3-sphinx.
+Preparing to unpack .../42-python3-sphinx_5.3.0-4_all.deb ...
+Unpacking python3-sphinx (5.3.0-4) ...
+Selecting previously unselected package python3-xcbgen.
+Preparing to unpack .../43-python3-xcbgen_1.15.2-1_all.deb ...
+Unpacking python3-xcbgen (1.15.2-1) ...
+Selecting previously unselected package xcb-proto.
+Preparing to unpack .../44-xcb-proto_1.15.2-1_all.deb ...
+Unpacking xcb-proto (1.15.2-1) ...
+Setting up libglib2.0-dev-bin (2.74.6-2+deb12u6) ...
+Setting up python3-xcbgen (1.15.2-1) ...
+Setting up libpixman-1-dev:amd64 (0.42.2-1) ...
+Setting up libpng-tools (1.6.39-2) ...
+Setting up python3-alabaster (0.7.12-1) ...
+Setting up libpng-dev:amd64 (1.6.39-2) ...
+Setting up libxcb-xkb-dev:amd64 (1.15-1) ...
+Setting up libxcb-xrm0:amd64 (1.0-3+b1) ...
+Setting up libxcb-shm0-dev:amd64 (1.15-1) ...
+Setting up python3-snowballstemmer (2.2.0-2) ...
+Setting up uuid-dev:amd64 (2.38.1-5+deb12u3) ...
+Setting up libxcb-cursor0:amd64 (0.1.4-1) ...
+Setting up sphinx-common (5.3.0-4) ...
+Setting up libjsoncpp25:amd64 (1.9.5-4) ...
+Setting up libsepol-dev:amd64 (3.4-2.1) ...
+Setting up libmpdclient2:amd64 (2.20-1+b1) ...
+Setting up libpcre2-posix3:amd64 (10.42-1) ...
+Setting up libxcb-render-util0-dev:amd64 (0.3.9-1+b1) ...
+Setting up libnl-3-dev:amd64 (3.7.0-0.2+b1) ...
+Setting up librhash0:amd64 (1.4.3-3) ...
+Setting up cmake-data (3.25.1-1) ...
+Setting up libxcb-xfixes0-dev:amd64 (1.15-1) ...
+Setting up libxcb-xrm-dev:amd64 (1.0-3+b1) ...
+Setting up xcb-proto (1.15.2-1) ...
+Setting up libxrender-dev:amd64 (1:0.9.10-1.1) ...
+Setting up libbrotli-dev:amd64 (1.0.9-2+b6) ...
+Setting up libxcb-image0-dev:amd64 (0.4.0-2) ...
+Setting up python3-imagesize (1.4.1-1) ...
+Setting up polybar (3.6.3-1) ...
+Setting up libblkid-dev:amd64 (2.38.1-5+deb12u3) ...
+Setting up libjsoncpp-dev:amd64 (1.9.5-4) ...
+Setting up libpcre2-dev:amd64 (10.42-1) ...
+Setting up libxcb-composite0-dev:amd64 (1.15-1) ...
+Setting up libselinux1-dev:amd64 (3.4-1+b6) ...
+Setting up libnl-genl-3-dev:amd64 (3.7.0-0.2+b1) ...
+Setting up libmpdclient-dev:amd64 (2.20-1+b1) ...
+Setting up libfreetype-dev:amd64 (2.12.1+dfsg-5+deb12u4) ...
+Setting up libxcb-cursor-dev:amd64 (0.1.4-1) ...
+Setting up cmake (3.25.1-1) ...
+Setting up python3-sphinx (5.3.0-4) ...
+Setting up libmount-dev:amd64 (2.38.1-5+deb12u3) ...
+Setting up libfontconfig-dev:amd64 (2.14.1-4) ...
+Setting up libglib2.0-dev:amd64 (2.74.6-2+deb12u6) ...
+Processing triggers for libglib2.0-0:amd64 (2.74.6-2+deb12u6) ...
+Processing triggers for libc-bin (2.36-9+deb12u12) ...
+Processing triggers for man-db (2.11.2-2) ...
+Setting up libpulse-dev:amd64 (16.1+dfsg1-2+b1) ...
+Setting up libcairo2-dev:amd64 (1.16.0-7) ...
+Scanning application launchers
+Removing duplicate launchers or broken launchers
+ [-] Missing executable file kcmshell5 at launcher /usr/share/applications/kcm_trash.desktop
+Launchers are updated
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+libxext-dev is already the newest version (2:1.3.4-1+b1).
+libxext-dev set to manually installed.
+libxcb1-dev is already the newest version (1.15-1).
+libxcb-xfixes0-dev is already the newest version (1.15-1).
+libxcb-xfixes0-dev set to manually installed.
+libxcb-shape0-dev is already the newest version (1.15-1).
+libxcb-render-util0-dev is already the newest version (0.3.9-1+b1).
+libxcb-render-util0-dev set to manually installed.
+libxcb-render0-dev is already the newest version (1.15-1).
+libxcb-render0-dev set to manually installed.
+libxcb-composite0-dev is already the newest version (1.15-1).
+libxcb-image0-dev is already the newest version (0.4.0-2).
+libxcb-xinerama0-dev is already the newest version (1.15-1).
+libpixman-1-dev is already the newest version (0.42.2-1).
+libpixman-1-dev set to manually installed.
+libgl1-mesa-dev is already the newest version (25.0.4-1~bpo12+1).
+libgl1-mesa-dev set to manually installed.
+libpcre2-dev is already the newest version (10.42-1).
+libpcre2-dev set to manually installed.
+libpcre3 is already the newest version (2:8.39-15).
+libpcre3 set to manually installed.
+Some packages could not be installed. This may mean that you have
+requested an impossible situation or if you are using the unstable
+distribution that some required packages have not yet been created
+or been moved out of Incoming.
+The following information may help to resolve the situation:
+
+The following packages have unmet dependencies:
+ picom : Depends: libev4t64 (>= 1:4.04) but it is not installable
+         Depends: libx11-xcb1 (>= 2:1.8.7) but 2:1.8.4-2+deb12u2 is to be installed
+E: Unable to correct problems, you have held broken packages.
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+xclip is already the newest version (0.13-2).
+xclip set to manually installed.
+zenity is already the newest version (3.44.0-1).
+zenity set to manually installed.
+The following packages were automatically installed and are no longer required:
+  golang-1.22-go golang-1.22-src graphicsmagick libglapi-mesa
+  libgraphicsmagick-q16-3 lp-solve
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  gsfonts imagemagick-6-common imagemagick-6.q16 kitty-doc
+  kitty-shell-integration kitty-terminfo lemonbar libfftw3-double3 libgit2-1.5
+  libjxr-tools libjxr0 liblqr-1-0 libmagickcore-6.q16-6
+  libmagickcore-6.q16-6-extra libmagickwand-6.q16-6 libmbedtls14 libmbedx509-1
+  libnetpbm11 librsync2 netpbm xdo yudit-common
+Suggested packages:
+  cmatrix-xfont imagemagick-doc autotrace cups-bsd | lpr | lprng enscript
+  gnuplot grads hp2xx html2ps libwmf-bin mplayer povray radiance
+  texlive-base-bin transfig ufraw-batch libfftw3-bin libfftw3-dev inkscape
+  atool unoconv dwm stterm surf yudit-doc yudit
+The following packages will be REMOVED:
+  graphicsmagick-imagemagick-compat
+The following NEW packages will be installed:
+  acpi bat bspwm cmatrix feh gsfonts imagemagick imagemagick-6-common
+  imagemagick-6.q16 kitty kitty-doc kitty-shell-integration kitty-terminfo
+  lemonbar libfftw3-double3 libgit2-1.5 libjxr-tools libjxr0 liblqr-1-0
+  libmagickcore-6.q16-6 libmagickcore-6.q16-6-extra libmagickwand-6.q16-6
+  libmbedtls14 libmbedx509-1 libnetpbm11 librsync2 locate netpbm ranger rofi
+  scrot scrub suckless-tools sxhkd xdo yudit-common
+0 upgraded, 36 newly installed, 1 to remove and 0 not upgraded.
+Need to get 15.7 MB of archives.
+After this operation, 61.8 MB of additional disk space will be used.
+Get:1 https://deb.parrot.sh/parrot lory/main amd64 libfftw3-double3 amd64 3.3.10-1 [776 kB]
+Get:2 https://deb.parrot.sh/parrot lory/main amd64 liblqr-1-0 amd64 0.4.2-2.1 [29.1 kB]
+Get:3 https://deb.parrot.sh/parrot lory/main amd64 imagemagick-6-common all 8:6.9.11.60+dfsg-1.6+deb12u3 [166 kB]
+Get:4 https://deb.parrot.sh/parrot lory/main amd64 libmagickcore-6.q16-6 amd64 8:6.9.11.60+dfsg-1.6+deb12u3 [1,789 kB]
+Get:5 https://deb.parrot.sh/parrot lory/main amd64 libmagickwand-6.q16-6 amd64 8:6.9.11.60+dfsg-1.6+deb12u3 [410 kB]
+Get:6 https://deb.parrot.sh/parrot lory/main amd64 imagemagick amd64 8:6.9.11.60+dfsg-1.6+deb12u3 [123 kB]
+Get:7 https://deb.parrot.sh/parrot lory/main amd64 imagemagick-6.q16 amd64 8:6.9.11.60+dfsg-1.6+deb12u3 [339 kB]
+Get:8 https://deb.parrot.sh/parrot lory/main amd64 acpi amd64 1.7-1.2 [13.9 kB]
+Get:9 https://deb.parrot.sh/parrot lory/main amd64 libmbedx509-1 amd64 2.28.3-1 [128 kB]
+Get:10 https://deb.parrot.sh/parrot lory/main amd64 libmbedtls14 amd64 2.28.3-1 [163 kB]
+Get:11 https://deb.parrot.sh/parrot lory/main amd64 libgit2-1.5 amd64 1.5.1+ds-1+deb12u1 [502 kB]
+Get:12 https://deb.parrot.sh/parrot lory/main amd64 bat amd64 0.22.1-4 [1,954 kB]
+Get:13 https://deb.parrot.sh/parrot lory/main amd64 sxhkd amd64 0.6.2-1 [31.6 kB]
+Get:14 https://deb.parrot.sh/parrot lory/main amd64 bspwm amd64 0.9.10-2+b1 [107 kB]
+Get:15 https://deb.parrot.sh/parrot lory/main amd64 cmatrix amd64 2.0-3 [17.5 kB]
+Get:16 https://deb.parrot.sh/parrot lory/main amd64 yudit-common all 3.1.0-1 [1,752 kB]
+Get:17 https://deb.parrot.sh/parrot lory/main amd64 feh amd64 3.9.1-2 [157 kB]
+Get:18 https://deb.parrot.sh/parrot lory/main amd64 gsfonts all 2:20200910-7 [18.5 kB]
+Get:19 https://deb.parrot.sh/parrot lory/main amd64 kitty-shell-integration all 0.26.5-5 [78.1 kB]
+Get:20 https://deb.parrot.sh/parrot lory/main amd64 kitty-terminfo all 0.26.5-5 [56.0 kB]
+Get:21 https://deb.parrot.sh/parrot lory/main amd64 librsync2 amd64 2.3.2-1+b1 [38.5 kB]
+Get:22 https://deb.parrot.sh/parrot lory/main amd64 kitty amd64 0.26.5-5 [1,547 kB]
+Get:23 https://deb.parrot.sh/parrot lory/main amd64 kitty-doc all 0.26.5-5 [1,773 kB]
+Get:24 https://deb.parrot.sh/parrot lory/main amd64 lemonbar amd64 1.4-1 [18.2 kB]
+Get:25 https://deb.parrot.sh/parrot lory/main amd64 libjxr0 amd64 1.2~git20170615.f752187-5 [162 kB]
+Get:26 https://deb.parrot.sh/parrot lory/main amd64 libjxr-tools amd64 1.2~git20170615.f752187-5 [17.3 kB]
+Get:27 https://deb.parrot.sh/parrot lory/main amd64 libmagickcore-6.q16-6-extra amd64 8:6.9.11.60+dfsg-1.6+deb12u3 [173 kB]
+Get:28 https://deb.parrot.sh/parrot lory/main amd64 libnetpbm11 amd64 2:11.01.00-2 [174 kB]
+Get:29 https://deb.parrot.sh/parrot lory/main amd64 locate amd64 4.9.0-4 [240 kB]
+Get:30 https://deb.parrot.sh/parrot lory/main amd64 netpbm amd64 2:11.01.00-2 [2,015 kB]
+Get:31 https://deb.parrot.sh/parrot lory/main amd64 ranger all 1.9.3-5 [237 kB]
+Get:32 https://deb.parrot.sh/parrot lory/main amd64 rofi amd64 1.7.3-0.1+b1 [539 kB]
+Get:33 https://deb.parrot.sh/parrot lory/main amd64 scrot amd64 1.8.1-1 [75.9 kB]
+Get:34 https://deb.parrot.sh/parrot lory/main amd64 scrub amd64 2.6.1-1+b1 [34.5 kB]
+Get:35 https://deb.parrot.sh/parrot lory/main amd64 suckless-tools amd64 47-1 [50.1 kB]
+Get:36 https://deb.parrot.sh/parrot lory/main amd64 xdo amd64 0.5.7-1+b2 [10.7 kB]
+Fetched 15.7 MB in 20s (793 kB/s)
+Selecting previously unselected package libfftw3-double3:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 588150 files and directories currently installed.)
+Preparing to unpack .../libfftw3-double3_3.3.10-1_amd64.deb ...
+Unpacking libfftw3-double3:amd64 (3.3.10-1) ...
+Selecting previously unselected package liblqr-1-0:amd64.
+Preparing to unpack .../liblqr-1-0_0.4.2-2.1_amd64.deb ...
+Unpacking liblqr-1-0:amd64 (0.4.2-2.1) ...
+Selecting previously unselected package imagemagick-6-common.
+Preparing to unpack .../imagemagick-6-common_8%3a6.9.11.60+dfsg-1.6+deb12u3_all.deb ...
+Unpacking imagemagick-6-common (8:6.9.11.60+dfsg-1.6+deb12u3) ...
+Selecting previously unselected package libmagickcore-6.q16-6:amd64.
+Preparing to unpack .../libmagickcore-6.q16-6_8%3a6.9.11.60+dfsg-1.6+deb12u3_amd64.deb ...
+Unpacking libmagickcore-6.q16-6:amd64 (8:6.9.11.60+dfsg-1.6+deb12u3) ...
+Selecting previously unselected package libmagickwand-6.q16-6:amd64.
+Preparing to unpack .../libmagickwand-6.q16-6_8%3a6.9.11.60+dfsg-1.6+deb12u3_amd64.deb ...
+Unpacking libmagickwand-6.q16-6:amd64 (8:6.9.11.60+dfsg-1.6+deb12u3) ...
+dpkg: graphicsmagick-imagemagick-compat: dependency problems, but removing anyway as you requested:
+ recoverjpeg depends on graphicsmagick-imagemagick-compat | imagemagick; however:
+  Package graphicsmagick-imagemagick-compat is to be removed.
+  Package imagemagick is not installed.
+  Package graphicsmagick-imagemagick-compat which provides imagemagick is to be removed.
+ ruby-mojo-magick depends on imagemagick; however:
+  Package imagemagick is not installed.
+  Package graphicsmagick-imagemagick-compat which provides imagemagick is to be removed.
+ recoverjpeg depends on graphicsmagick-imagemagick-compat | imagemagick; however:
+  Package graphicsmagick-imagemagick-compat is to be removed.
+  Package imagemagick is not installed.
+  Package graphicsmagick-imagemagick-compat which provides imagemagick is to be removed.
+ caja-image-converter depends on imagemagick; however:
+  Package imagemagick is not installed.
+  Package graphicsmagick-imagemagick-compat which provides imagemagick is to be removed.
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 588459 files and directories currently installed.)
+Removing graphicsmagick-imagemagick-compat (1.4+really1.3.40-4+deb12u1) ...
+Selecting previously unselected package imagemagick.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 588437 files and directories currently installed.)
+Preparing to unpack .../00-imagemagick_8%3a6.9.11.60+dfsg-1.6+deb12u3_amd64.deb ...
+Unpacking imagemagick (8:6.9.11.60+dfsg-1.6+deb12u3) ...
+Selecting previously unselected package imagemagick-6.q16.
+Preparing to unpack .../01-imagemagick-6.q16_8%3a6.9.11.60+dfsg-1.6+deb12u3_amd64.deb ...
+Unpacking imagemagick-6.q16 (8:6.9.11.60+dfsg-1.6+deb12u3) ...
+Selecting previously unselected package acpi.
+Preparing to unpack .../02-acpi_1.7-1.2_amd64.deb ...
+Unpacking acpi (1.7-1.2) ...
+Selecting previously unselected package libmbedx509-1:amd64.
+Preparing to unpack .../03-libmbedx509-1_2.28.3-1_amd64.deb ...
+Unpacking libmbedx509-1:amd64 (2.28.3-1) ...
+Selecting previously unselected package libmbedtls14:amd64.
+Preparing to unpack .../04-libmbedtls14_2.28.3-1_amd64.deb ...
+Unpacking libmbedtls14:amd64 (2.28.3-1) ...
+Selecting previously unselected package libgit2-1.5:amd64.
+Preparing to unpack .../05-libgit2-1.5_1.5.1+ds-1+deb12u1_amd64.deb ...
+Unpacking libgit2-1.5:amd64 (1.5.1+ds-1+deb12u1) ...
+Selecting previously unselected package bat.
+Preparing to unpack .../06-bat_0.22.1-4_amd64.deb ...
+Unpacking bat (0.22.1-4) ...
+Selecting previously unselected package sxhkd.
+Preparing to unpack .../07-sxhkd_0.6.2-1_amd64.deb ...
+Unpacking sxhkd (0.6.2-1) ...
+Selecting previously unselected package bspwm.
+Preparing to unpack .../08-bspwm_0.9.10-2+b1_amd64.deb ...
+Unpacking bspwm (0.9.10-2+b1) ...
+Selecting previously unselected package cmatrix.
+Preparing to unpack .../09-cmatrix_2.0-3_amd64.deb ...
+Unpacking cmatrix (2.0-3) ...
+Selecting previously unselected package yudit-common.
+Preparing to unpack .../10-yudit-common_3.1.0-1_all.deb ...
+Unpacking yudit-common (3.1.0-1) ...
+Selecting previously unselected package feh.
+Preparing to unpack .../11-feh_3.9.1-2_amd64.deb ...
+Unpacking feh (3.9.1-2) ...
+Selecting previously unselected package gsfonts.
+Preparing to unpack .../12-gsfonts_2%3a20200910-7_all.deb ...
+Unpacking gsfonts (2:20200910-7) ...
+Selecting previously unselected package kitty-shell-integration.
+Preparing to unpack .../13-kitty-shell-integration_0.26.5-5_all.deb ...
+Unpacking kitty-shell-integration (0.26.5-5) ...
+Selecting previously unselected package kitty-terminfo.
+Preparing to unpack .../14-kitty-terminfo_0.26.5-5_all.deb ...
+Unpacking kitty-terminfo (0.26.5-5) ...
+Selecting previously unselected package librsync2:amd64.
+Preparing to unpack .../15-librsync2_2.3.2-1+b1_amd64.deb ...
+Unpacking librsync2:amd64 (2.3.2-1+b1) ...
+Selecting previously unselected package kitty.
+Preparing to unpack .../16-kitty_0.26.5-5_amd64.deb ...
+Unpacking kitty (0.26.5-5) ...
+Selecting previously unselected package kitty-doc.
+Preparing to unpack .../17-kitty-doc_0.26.5-5_all.deb ...
+Unpacking kitty-doc (0.26.5-5) ...
+Selecting previously unselected package lemonbar.
+Preparing to unpack .../18-lemonbar_1.4-1_amd64.deb ...
+Unpacking lemonbar (1.4-1) ...
+Selecting previously unselected package libjxr0:amd64.
+Preparing to unpack .../19-libjxr0_1.2~git20170615.f752187-5_amd64.deb ...
+Unpacking libjxr0:amd64 (1.2~git20170615.f752187-5) ...
+Selecting previously unselected package libjxr-tools.
+Preparing to unpack .../20-libjxr-tools_1.2~git20170615.f752187-5_amd64.deb ...
+Unpacking libjxr-tools (1.2~git20170615.f752187-5) ...
+Selecting previously unselected package libmagickcore-6.q16-6-extra:amd64.
+Preparing to unpack .../21-libmagickcore-6.q16-6-extra_8%3a6.9.11.60+dfsg-1.6+deb12u3_amd64.deb ...
+Unpacking libmagickcore-6.q16-6-extra:amd64 (8:6.9.11.60+dfsg-1.6+deb12u3) ...
+Selecting previously unselected package libnetpbm11:amd64.
+Preparing to unpack .../22-libnetpbm11_2%3a11.01.00-2_amd64.deb ...
+Unpacking libnetpbm11:amd64 (2:11.01.00-2) ...
+Selecting previously unselected package locate.
+Preparing to unpack .../23-locate_4.9.0-4_amd64.deb ...
+Unpacking locate (4.9.0-4) ...
+Selecting previously unselected package netpbm.
+Preparing to unpack .../24-netpbm_2%3a11.01.00-2_amd64.deb ...
+Unpacking netpbm (2:11.01.00-2) ...
+Selecting previously unselected package ranger.
+Preparing to unpack .../25-ranger_1.9.3-5_all.deb ...
+Unpacking ranger (1.9.3-5) ...
+Selecting previously unselected package rofi.
+Preparing to unpack .../26-rofi_1.7.3-0.1+b1_amd64.deb ...
+Unpacking rofi (1.7.3-0.1+b1) ...
+Selecting previously unselected package scrot.
+Preparing to unpack .../27-scrot_1.8.1-1_amd64.deb ...
+Unpacking scrot (1.8.1-1) ...
+Selecting previously unselected package scrub.
+Preparing to unpack .../28-scrub_2.6.1-1+b1_amd64.deb ...
+Unpacking scrub (2.6.1-1+b1) ...
+Selecting previously unselected package suckless-tools.
+Preparing to unpack .../29-suckless-tools_47-1_amd64.deb ...
+Unpacking suckless-tools (47-1) ...
+Selecting previously unselected package xdo.
+Preparing to unpack .../30-xdo_0.5.7-1+b2_amd64.deb ...
+Unpacking xdo (0.5.7-1+b2) ...
+Setting up lemonbar (1.4-1) ...
+Setting up imagemagick-6-common (8:6.9.11.60+dfsg-1.6+deb12u3) ...
+Setting up libmbedx509-1:amd64 (2.28.3-1) ...
+Setting up libmbedtls14:amd64 (2.28.3-1) ...
+Setting up libjxr0:amd64 (1.2~git20170615.f752187-5) ...
+Setting up rofi (1.7.3-0.1+b1) ...
+Setting up acpi (1.7-1.2) ...
+Setting up libnetpbm11:amd64 (2:11.01.00-2) ...
+Setting up cmatrix (2.0-3) ...
+Setting up sxhkd (0.6.2-1) ...
+Setting up gsfonts (2:20200910-7) ...
+Setting up suckless-tools (47-1) ...
+Setting up netpbm (2:11.01.00-2) ...
+Setting up libfftw3-double3:amd64 (3.3.10-1) ...
+Setting up scrub (2.6.1-1+b1) ...
+Setting up yudit-common (3.1.0-1) ...
+Setting up librsync2:amd64 (2.3.2-1+b1) ...
+Setting up liblqr-1-0:amd64 (0.4.2-2.1) ...
+Setting up kitty-doc (0.26.5-5) ...
+Setting up kitty-terminfo (0.26.5-5) ...
+Setting up ranger (1.9.3-5) ...
+Setting up kitty-shell-integration (0.26.5-5) ...
+Setting up locate (4.9.0-4) ...
+Setting up xdo (0.5.7-1+b2) ...
+Setting up bspwm (0.9.10-2+b1) ...
+Setting up scrot (1.8.1-1) ...
+Setting up libgit2-1.5:amd64 (1.5.1+ds-1+deb12u1) ...
+Setting up bat (0.22.1-4) ...
+Setting up libjxr-tools (1.2~git20170615.f752187-5) ...
+Setting up kitty (0.26.5-5) ...
+Setting up libmagickcore-6.q16-6:amd64 (8:6.9.11.60+dfsg-1.6+deb12u3) ...
+Setting up feh (3.9.1-2) ...
+Setting up libmagickwand-6.q16-6:amd64 (8:6.9.11.60+dfsg-1.6+deb12u3) ...
+Setting up libmagickcore-6.q16-6-extra:amd64 (8:6.9.11.60+dfsg-1.6+deb12u3) ...
+Setting up imagemagick-6.q16 (8:6.9.11.60+dfsg-1.6+deb12u3) ...
+update-alternatives: using /usr/bin/compare-im6.q16 to provide /usr/bin/compare (compare) in auto mode
+update-alternatives: using /usr/bin/compare-im6.q16 to provide /usr/bin/compare-im6 (compare-im6) in auto mode
+update-alternatives: using /usr/bin/animate-im6.q16 to provide /usr/bin/animate (animate) in auto mode
+update-alternatives: using /usr/bin/animate-im6.q16 to provide /usr/bin/animate-im6 (animate-im6) in auto mode
+update-alternatives: using /usr/bin/convert-im6.q16 to provide /usr/bin/convert (convert) in auto mode
+update-alternatives: using /usr/bin/convert-im6.q16 to provide /usr/bin/convert-im6 (convert-im6) in auto mode
+update-alternatives: using /usr/bin/composite-im6.q16 to provide /usr/bin/composite (composite) in auto mode
+update-alternatives: using /usr/bin/composite-im6.q16 to provide /usr/bin/composite-im6 (composite-im6) in auto mode
+update-alternatives: using /usr/bin/conjure-im6.q16 to provide /usr/bin/conjure (conjure) in auto mode
+update-alternatives: using /usr/bin/conjure-im6.q16 to provide /usr/bin/conjure-im6 (conjure-im6) in auto mode
+update-alternatives: using /usr/bin/import-im6.q16 to provide /usr/bin/import (import) in auto mode
+update-alternatives: using /usr/bin/import-im6.q16 to provide /usr/bin/import-im6 (import-im6) in auto mode
+update-alternatives: using /usr/bin/identify-im6.q16 to provide /usr/bin/identify (identify) in auto mode
+update-alternatives: using /usr/bin/identify-im6.q16 to provide /usr/bin/identify-im6 (identify-im6) in auto mode
+update-alternatives: using /usr/bin/stream-im6.q16 to provide /usr/bin/stream (stream) in auto mode
+update-alternatives: using /usr/bin/stream-im6.q16 to provide /usr/bin/stream-im6 (stream-im6) in auto mode
+update-alternatives: using /usr/bin/display-im6.q16 to provide /usr/bin/display (display) in auto mode
+update-alternatives: using /usr/bin/display-im6.q16 to provide /usr/bin/display-im6 (display-im6) in auto mode
+update-alternatives: using /usr/bin/montage-im6.q16 to provide /usr/bin/montage (montage) in auto mode
+update-alternatives: using /usr/bin/montage-im6.q16 to provide /usr/bin/montage-im6 (montage-im6) in auto mode
+update-alternatives: using /usr/bin/mogrify-im6.q16 to provide /usr/bin/mogrify (mogrify) in auto mode
+update-alternatives: using /usr/bin/mogrify-im6.q16 to provide /usr/bin/mogrify-im6 (mogrify-im6) in auto mode
+Setting up imagemagick (8:6.9.11.60+dfsg-1.6+deb12u3) ...
+Processing triggers for mailcap (3.70+nmu1) ...
+Processing triggers for bamfdaemon (0.5.6+repack-1) ...
+Rebuilding /usr/share/applications/bamf-2.index...
+Processing triggers for desktop-file-utils (0.26-1) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+Processing triggers for mate-menus (1.26.0-3) ...
+Processing triggers for libc-bin (2.36-9+deb12u12) ...
+Processing triggers for man-db (2.11.2-2) ...
+Processing triggers for menu (2.1.49) ...
+Scanning application launchers
+Removing duplicate launchers or broken launchers
+ [-] Missing executable file kcmshell5 at launcher /usr/share/applications/kcm_trash.desktop
+Launchers are updated
+Cloning into 'polybar'...
+Submodule 'lib/i3ipcpp' (https://github.com/polybar/i3ipcpp) registered for path 'lib/i3ipcpp'
+Submodule 'lib/xpp' (https://github.com/polybar/xpp) registered for path 'lib/xpp'
+Cloning into '/home/fl4sh/github/polybar/lib/i3ipcpp'...
+Cloning into '/home/fl4sh/github/polybar/lib/xpp'...
+From https://github.com/polybar/i3ipcpp
+ * branch            0daa58349ab3373161a4a73c1ccd2822328d2c73 -> FETCH_HEAD
+Submodule path 'lib/i3ipcpp': checked out '0daa58349ab3373161a4a73c1ccd2822328d2c73'
+From https://github.com/polybar/xpp
+ * branch            a8b9e682ba65ca4a6d805c8be97c5232bae3c0c1 -> FETCH_HEAD
+Submodule path 'lib/xpp': checked out 'a8b9e682ba65ca4a6d805c8be97c5232bae3c0c1'
+Cloning into 'picom'...
+-- The CXX compiler identification is GNU 12.2.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- [33mNo build type specified; using Release[0m
+-- [33mCouldn't locate ccache, disabling ccache...[0m
+-- Performing Test HAS_SUGGEST_OVERRIDE
+-- Performing Test HAS_SUGGEST_OVERRIDE - Success
+-- [32mUsing supported compiler GNU-12.2.0[0m
+-- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Checking for module 'cairo-fc'
+--   Found cairo-fc, version 1.16.0
+-- Found CairoFC: /usr/include/cairo;/usr/include/glib-2.0;/usr/lib/x86_64-linux-gnu/glib-2.0/include;/usr/include/pixman-1;/usr/include/freetype2;/usr/include/libpng16 (found version "1.16.0") 
+-- Checking for module 'libuv'
+--   Found libuv, version 1.44.2
+-- Found LibUV: /usr/include (found suitable version "1.44.2", minimum required is "1.3.0") 
+-- Checking for module 'alsa'
+--   Found alsa, version 1.2.8
+-- Found ALSA: /usr/include (found version "1.2.8") 
+-- Checking for module 'libmpdclient'
+--   Found libmpdclient, version 2.20
+-- Found LibMPDClient: /usr/include (found version "2.20") 
+-- Checking for module 'libnl-genl-3.0'
+--   Found libnl-genl-3.0, version 3.7.0
+-- Found LibNlGenl3: /usr/include/libnl3 (found version "3.7.0") 
+-- Checking for module 'libpulse'
+--   Found libpulse, version 16.1
+-- Found LibPulse: /usr/include (found version "16.1") 
+-- Checking for module 'xcb-randr'
+--   Found xcb-randr, version 1.15
+-- Found Xcb_RANDR: /usr/include (found suitable version "1.15", minimum required is "1.12") 
+-- Checking for module 'xcb-composite'
+--   Found xcb-composite, version 1.15
+-- Found Xcb_COMPOSITE: /usr/include (found version "1.15") 
+-- Checking for module 'xcb-xkb'
+--   Found xcb-xkb, version 1.15
+-- Found Xcb_XKB: /usr/include (found version "1.15") 
+-- Checking for module 'xcb-cursor'
+--   Found xcb-cursor, version 0.1.4
+-- Found Xcb_CURSOR: /usr/include (found version "0.1.4") 
+-- Checking for module 'xcb-xrm'
+--   Found xcb-xrm, version 1.0
+-- Found Xcb_XRM: /usr/include (found version "1.0") 
+-- The C compiler identification is GNU 12.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Checking for module 'xcb-proto'
+--   Found xcb-proto, version 1.15.2
+-- Found Python3: /usr/bin/python3 (found version "3.11.2") found components: Interpreter 
+-- XCB[XCB]: Found component XCB
+-- Found XCB_XCB: /usr/lib/x86_64-linux-gnu/libxcb.so  
+-- XCB[ICCCM]: Found component ICCCM
+-- Found XCB_ICCCM: /usr/lib/x86_64-linux-gnu/libxcb-icccm.so  
+-- XCB[EWMH]: Found component EWMH
+-- Found XCB_EWMH: /usr/lib/x86_64-linux-gnu/libxcb-ewmh.so  
+-- XCB[UTIL]: Found component UTIL
+-- Found XCB_UTIL: /usr/lib/x86_64-linux-gnu/libxcb-util.so  
+-- XCB[IMAGE]: Found component IMAGE
+-- Found XCB_IMAGE: /usr/lib/x86_64-linux-gnu/libxcb-image.so  
+-- Found XCB: /usr/lib/x86_64-linux-gnu/libxcb.so;/usr/lib/x86_64-linux-gnu/libxcb-icccm.so;/usr/lib/x86_64-linux-gnu/libxcb-ewmh.so;/usr/lib/x86_64-linux-gnu/libxcb-util.so;/usr/lib/x86_64-linux-gnu/libxcb-image.so  
+-- Searching for xcbgen with /usr/bin/python3
+-- Found xcbgen in /usr/lib/python3/dist-packages
+-- XCB[RANDR]: Found component RANDR
+-- Found XCB_RANDR: /usr/lib/x86_64-linux-gnu/libxcb-randr.so  
+-- Found XCB: /usr/lib/x86_64-linux-gnu/libxcb.so;/usr/lib/x86_64-linux-gnu/libxcb-icccm.so;/usr/lib/x86_64-linux-gnu/libxcb-ewmh.so;/usr/lib/x86_64-linux-gnu/libxcb-util.so;/usr/lib/x86_64-linux-gnu/libxcb-image.so;/usr/lib/x86_64-linux-gnu/libxcb-randr.so  
+-- XCB[COMPOSITE]: Found component COMPOSITE
+-- Found XCB_COMPOSITE: /usr/lib/x86_64-linux-gnu/libxcb-composite.so  
+-- Found XCB: /usr/lib/x86_64-linux-gnu/libxcb.so;/usr/lib/x86_64-linux-gnu/libxcb-icccm.so;/usr/lib/x86_64-linux-gnu/libxcb-ewmh.so;/usr/lib/x86_64-linux-gnu/libxcb-util.so;/usr/lib/x86_64-linux-gnu/libxcb-image.so;/usr/lib/x86_64-linux-gnu/libxcb-randr.so;/usr/lib/x86_64-linux-gnu/libxcb-composite.so  
+-- XCB[XKB]: Found component XKB
+-- Found XCB_XKB: /usr/lib/x86_64-linux-gnu/libxcb-xkb.so  
+-- Found XCB: /usr/lib/x86_64-linux-gnu/libxcb.so;/usr/lib/x86_64-linux-gnu/libxcb-icccm.so;/usr/lib/x86_64-linux-gnu/libxcb-ewmh.so;/usr/lib/x86_64-linux-gnu/libxcb-util.so;/usr/lib/x86_64-linux-gnu/libxcb-image.so;/usr/lib/x86_64-linux-gnu/libxcb-randr.so;/usr/lib/x86_64-linux-gnu/libxcb-composite.so;/usr/lib/x86_64-linux-gnu/libxcb-xkb.so  
+-- xpp: including xcb proto composite.xml
+-- xpp: including xcb proto randr.xml
+-- xpp: including xcb proto xkb.xml
+-- xpp: including xcb proto xproto.xml
+--  Build:
+-- [32;1m   Version: 3.7.2-27-g9476ad80[0m
+-- [37;2m   Type: Release[0m
+-- [37;2m   CXX: /usr/bin/c++  -O3 -DNDEBUG -Wall -Wextra -Wpedantic -Wdeprecated-copy-dtor -Wsuggest-override[0m
+-- [37;2m   LD: /usr/bin/ld  -Wall -Wextra -Wpedantic -Wdeprecated-copy-dtor -Wsuggest-override  -Wall -Wextra -Wpedantic -Wdeprecated-copy-dtor -Wsuggest-override[0m
+-- [37;2m   sphinx-build: /usr/bin/sphinx-build [0m
+--  Install Paths:
+-- [32m   PREFIX:     /usr[0m
+-- [32m   BINDIR:     /usr/bin[0m
+-- [32m   DATADIR:    /usr/share[0m
+-- [32m   DOCDIR:     /usr/share/doc/polybar[0m
+-- [32m   MANDIR:     /usr/share/man[0m
+-- [32m   SYSCONFDIR: /etc[0m
+--  Targets:
+-- [32;1m[X]   polybar[0m
+-- [32;1m[X]   polybar-msg[0m
+-- [37;2m[ ]   testsuite[0m
+-- [32;1m[X]   documentation[0m
+-- [32;1m[X]      html[0m
+-- [32;1m[X]      man[0m
+-- [32;1m[X]   default config[0m
+-- [32;1m[X]   shell files[0m
+--  Module support:
+-- [32;1m[X]   alsa (1.2.8)[0m
+-- [37;2m[ ]   curl[0m
+-- [37;2m[ ]   i3[0m
+-- [32;1m[X]   mpd (2.20)[0m
+-- [32;1m[X]   network (libnl) (3.7.0)[0m
+-- [32;1m[X]   pulseaudio (16.1)[0m
+-- [32;1m[X]   xkeyboard (1.15)[0m
+--  X extensions:
+-- [32;1m[X]   xcb-randr (1.15)[0m
+-- [32;1m[X]   xcb-randr (monitor support) (1.15)[0m
+-- [32;1m[X]   xcb-composite (1.15)[0m
+-- [32;1m[X]   xcb-xkb (1.15)[0m
+-- [32;1m[X]   xcb-xrm (1.0)[0m
+-- [32;1m[X]   xcb-cursor (0.1.4)[0m
+--  Log options:
+-- [32;1m[X]   Trace logging[0m
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/fl4sh/github/polybar/build
+[  1%] Generating generated-sources/include/xpp/proto/xkb.hpp
+[  2%] Generating generated-sources/include/xpp/proto/composite.hpp
+[  2%] sphinx-build html: see doc/builder-html.log
+[  3%] sphinx-build man: see doc/builder-man.log
+[  4%] Generating generated-sources/include/xpp/proto/randr.hpp
+[  5%] Generating generated-sources/include/xpp/proto/x.hpp
+list: size, ['red', 'green', 'blue']
+list: size, ['red', 'green', 'blue']
+[  6%] Linking CXX static library libxpp.a
+[  6%] Built target xpp
+[  7%] Building CXX object bin/CMakeFiles/poly.dir/__/generated-sources/settings.cpp.o
+[  8%] Building CXX object bin/CMakeFiles/poly.dir/adapters/script_runner.cpp.o
+[  8%] Built target doc_man
+[  9%] Building CXX object bin/CMakeFiles/poly.dir/cairo/utils.cpp.o
+[  9%] Built target doc_html
+[ 10%] Building CXX object bin/CMakeFiles/poly.dir/components/bar.cpp.o
+[ 10%] Built target doc
+[ 11%] Building CXX object bin/CMakeFiles/poly.dir/components/builder.cpp.o
+[ 12%] Building CXX object bin/CMakeFiles/poly.dir/components/command_line.cpp.o
+[ 13%] Building CXX object bin/CMakeFiles/poly.dir/components/config.cpp.o
+[ 14%] Building CXX object bin/CMakeFiles/poly.dir/components/config_parser.cpp.o
+[ 15%] Building CXX object bin/CMakeFiles/poly.dir/components/controller.cpp.o
+[ 16%] Building CXX object bin/CMakeFiles/poly.dir/components/logger.cpp.o
+[ 17%] Building CXX object bin/CMakeFiles/poly.dir/components/renderer.cpp.o
+[ 18%] Building CXX object bin/CMakeFiles/poly.dir/components/screen.cpp.o
+[ 19%] Building CXX object bin/CMakeFiles/poly.dir/components/eventloop.cpp.o
+[ 20%] Building CXX object bin/CMakeFiles/poly.dir/drawtypes/animation.cpp.o
+[ 21%] Building CXX object bin/CMakeFiles/poly.dir/drawtypes/iconset.cpp.o
+[ 22%] Building CXX object bin/CMakeFiles/poly.dir/drawtypes/layouticonset.cpp.o
+[ 23%] Building CXX object bin/CMakeFiles/poly.dir/drawtypes/label.cpp.o
+[ 24%] Building CXX object bin/CMakeFiles/poly.dir/drawtypes/progressbar.cpp.o
+[ 25%] Building CXX object bin/CMakeFiles/poly.dir/drawtypes/ramp.cpp.o
+[ 26%] Building CXX object bin/CMakeFiles/poly.dir/events/signal_emitter.cpp.o
+[ 27%] Building CXX object bin/CMakeFiles/poly.dir/events/signal_receiver.cpp.o
+[ 28%] Building CXX object bin/CMakeFiles/poly.dir/ipc/ipc.cpp.o
+[ 29%] Building CXX object bin/CMakeFiles/poly.dir/ipc/decoder.cpp.o
+[ 30%] Building CXX object bin/CMakeFiles/poly.dir/ipc/encoder.cpp.o
+[ 31%] Building CXX object bin/CMakeFiles/poly.dir/ipc/util.cpp.o
+[ 32%] Building CXX object bin/CMakeFiles/poly.dir/modules/backlight.cpp.o
+[ 33%] Building CXX object bin/CMakeFiles/poly.dir/modules/battery.cpp.o
+[ 34%] Building CXX object bin/CMakeFiles/poly.dir/modules/bspwm.cpp.o
+[ 35%] Building CXX object bin/CMakeFiles/poly.dir/modules/counter.cpp.o
+[ 36%] Building CXX object bin/CMakeFiles/poly.dir/modules/cpu.cpp.o
+[ 37%] Building CXX object bin/CMakeFiles/poly.dir/modules/date.cpp.o
+[ 38%] Building CXX object bin/CMakeFiles/poly.dir/modules/fs.cpp.o
+[ 38%] Building CXX object bin/CMakeFiles/poly.dir/modules/ipc.cpp.o
+[ 39%] Building CXX object bin/CMakeFiles/poly.dir/modules/memory.cpp.o
+[ 40%] Building CXX object bin/CMakeFiles/poly.dir/modules/menu.cpp.o
+[ 41%] Building CXX object bin/CMakeFiles/poly.dir/modules/meta/base.cpp.o
+[ 42%] Building CXX object bin/CMakeFiles/poly.dir/modules/meta/factory.cpp.o
+[ 43%] Building CXX object bin/CMakeFiles/poly.dir/modules/script.cpp.o
+[ 44%] Building CXX object bin/CMakeFiles/poly.dir/modules/temperature.cpp.o
+[ 45%] Building CXX object bin/CMakeFiles/poly.dir/modules/text.cpp.o
+[ 46%] Building CXX object bin/CMakeFiles/poly.dir/modules/xbacklight.cpp.o
+[ 47%] Building CXX object bin/CMakeFiles/poly.dir/modules/xwindow.cpp.o
+[ 48%] Building CXX object bin/CMakeFiles/poly.dir/modules/xworkspaces.cpp.o
+[ 49%] Building CXX object bin/CMakeFiles/poly.dir/modules/tray.cpp.o
+[ 50%] Building CXX object bin/CMakeFiles/poly.dir/tags/action_context.cpp.o
+[ 51%] Building CXX object bin/CMakeFiles/poly.dir/tags/context.cpp.o
+[ 52%] Building CXX object bin/CMakeFiles/poly.dir/tags/dispatch.cpp.o
+[ 53%] Building CXX object bin/CMakeFiles/poly.dir/tags/parser.cpp.o
+[ 54%] Building CXX object bin/CMakeFiles/poly.dir/utils/actions.cpp.o
+[ 55%] Building CXX object bin/CMakeFiles/poly.dir/utils/action_router.cpp.o
+[ 56%] Building CXX object bin/CMakeFiles/poly.dir/utils/bspwm.cpp.o
+[ 57%] Building CXX object bin/CMakeFiles/poly.dir/utils/color.cpp.o
+[ 58%] Building CXX object bin/CMakeFiles/poly.dir/utils/command.cpp.o
+[ 59%] Building CXX object bin/CMakeFiles/poly.dir/utils/concurrency.cpp.o
+[ 60%] Building CXX object bin/CMakeFiles/poly.dir/utils/env.cpp.o
+[ 61%] Building CXX object bin/CMakeFiles/poly.dir/utils/file.cpp.o
+[ 62%] Building CXX object bin/CMakeFiles/poly.dir/utils/inotify.cpp.o
+[ 63%] Building CXX object bin/CMakeFiles/poly.dir/utils/io.cpp.o
+[ 64%] Building CXX object bin/CMakeFiles/poly.dir/utils/process.cpp.o
+[ 65%] Building CXX object bin/CMakeFiles/poly.dir/utils/restack.cpp.o
+[ 66%] Building CXX object bin/CMakeFiles/poly.dir/utils/socket.cpp.o
+[ 67%] Building CXX object bin/CMakeFiles/poly.dir/utils/string.cpp.o
+[ 68%] Building CXX object bin/CMakeFiles/poly.dir/utils/units.cpp.o
+[ 69%] Building CXX object bin/CMakeFiles/poly.dir/x11/atoms.cpp.o
+[ 70%] Building CXX object bin/CMakeFiles/poly.dir/x11/background_manager.cpp.o
+[ 71%] Building CXX object bin/CMakeFiles/poly.dir/x11/connection.cpp.o
+[ 71%] Building CXX object bin/CMakeFiles/poly.dir/x11/ewmh.cpp.o
+[ 72%] Building CXX object bin/CMakeFiles/poly.dir/x11/extensions/composite.cpp.o
+[ 73%] Building CXX object bin/CMakeFiles/poly.dir/x11/extensions/randr.cpp.o
+[ 74%] Building CXX object bin/CMakeFiles/poly.dir/x11/icccm.cpp.o
+[ 75%] Building CXX object bin/CMakeFiles/poly.dir/x11/registry.cpp.o
+[ 76%] Building CXX object bin/CMakeFiles/poly.dir/x11/legacy_tray_manager.cpp.o
+[ 77%] Building CXX object bin/CMakeFiles/poly.dir/x11/tray_client.cpp.o
+[ 78%] Building CXX object bin/CMakeFiles/poly.dir/x11/tray_manager.cpp.o
+[ 79%] Building CXX object bin/CMakeFiles/poly.dir/x11/window.cpp.o
+[ 80%] Building CXX object bin/CMakeFiles/poly.dir/x11/winspec.cpp.o
+[ 81%] Building CXX object bin/CMakeFiles/poly.dir/x11/xembed.cpp.o
+[ 82%] Building CXX object bin/CMakeFiles/poly.dir/adapters/alsa/control.cpp.o
+[ 83%] Building CXX object bin/CMakeFiles/poly.dir/adapters/alsa/mixer.cpp.o
+[ 84%] Building CXX object bin/CMakeFiles/poly.dir/modules/alsa.cpp.o
+[ 85%] Building CXX object bin/CMakeFiles/poly.dir/adapters/mpd.cpp.o
+[ 86%] Building CXX object bin/CMakeFiles/poly.dir/modules/mpd.cpp.o
+[ 87%] Building CXX object bin/CMakeFiles/poly.dir/adapters/net.cpp.o
+[ 88%] Building CXX object bin/CMakeFiles/poly.dir/modules/network.cpp.o
+[ 89%] Building CXX object bin/CMakeFiles/poly.dir/adapters/net_nl.cpp.o
+[ 90%] Building CXX object bin/CMakeFiles/poly.dir/adapters/pulseaudio.cpp.o
+[ 91%] Building CXX object bin/CMakeFiles/poly.dir/modules/pulseaudio.cpp.o
+[ 92%] Building CXX object bin/CMakeFiles/poly.dir/x11/cursor.cpp.o
+[ 93%] Building CXX object bin/CMakeFiles/poly.dir/modules/xkeyboard.cpp.o
+[ 94%] Building CXX object bin/CMakeFiles/poly.dir/x11/extensions/xkb.cpp.o
+[ 95%] Building CXX object bin/CMakeFiles/poly.dir/x11/xresources.cpp.o
+[ 96%] Linking CXX static library ../libs/libpoly.a
+[ 96%] Built target poly
+[ 97%] Building CXX object bin/CMakeFiles/polybar-msg.dir/polybar-msg.cpp.o
+[ 98%] Building CXX object bin/CMakeFiles/polybar.dir/main.cpp.o
+[ 99%] Linking CXX executable polybar-msg
+[100%] Linking CXX executable polybar
+[100%] Built target polybar-msg
+[100%] Built target polybar
+[  1%] sphinx-build man: see doc/builder-man.log
+[  1%] Built target doc_man
+[  1%] sphinx-build html: see doc/builder-html.log
+[  1%] Built target doc_html
+[  1%] Built target doc
+[  6%] Built target xpp
+[ 96%] Built target poly
+[ 98%] Built target polybar
+[100%] Built target polybar-msg
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /etc/polybar/config.ini
+-- Up-to-date: /usr/share/doc/polybar
+-- Installing: /usr/share/doc/polybar/dev
+-- Installing: /usr/share/doc/polybar/dev/getting-started.html
+-- Installing: /usr/share/doc/polybar/dev/packaging.html
+-- Installing: /usr/share/doc/polybar/dev/release-workflow.html
+-- Installing: /usr/share/doc/polybar/dev/style-guide.html
+-- Installing: /usr/share/doc/polybar/dev/testing.html
+-- Installing: /usr/share/doc/polybar/_sources
+-- Installing: /usr/share/doc/polybar/_sources/dev
+-- Installing: /usr/share/doc/polybar/_sources/dev/getting-started.rst.txt
+-- Installing: /usr/share/doc/polybar/_sources/dev/packaging.rst.txt
+-- Installing: /usr/share/doc/polybar/_sources/dev/release-workflow.rst.txt
+-- Installing: /usr/share/doc/polybar/_sources/dev/style-guide.rst.txt
+-- Installing: /usr/share/doc/polybar/_sources/dev/testing.rst.txt
+-- Installing: /usr/share/doc/polybar/_sources/index.rst.txt
+-- Installing: /usr/share/doc/polybar/_sources/man
+-- Installing: /usr/share/doc/polybar/_sources/man/polybar-msg.1.rst.txt
+-- Installing: /usr/share/doc/polybar/_sources/man/polybar.1.rst.txt
+-- Installing: /usr/share/doc/polybar/_sources/man/polybar.5.rst.txt
+-- Installing: /usr/share/doc/polybar/_sources/migration
+-- Installing: /usr/share/doc/polybar/_sources/migration/3.7
+-- Installing: /usr/share/doc/polybar/_sources/migration/3.7/index.rst.txt
+-- Installing: /usr/share/doc/polybar/_sources/migration/3.7/tray.rst.txt
+-- Installing: /usr/share/doc/polybar/_sources/migration/index.rst.txt
+-- Installing: /usr/share/doc/polybar/_sources/user
+-- Installing: /usr/share/doc/polybar/_sources/user/actions.rst.txt
+-- Installing: /usr/share/doc/polybar/_sources/user/default-config.rst.txt
+-- Installing: /usr/share/doc/polybar/_sources/user/fonts
+-- Installing: /usr/share/doc/polybar/_sources/user/fonts/index.rst.txt
+-- Installing: /usr/share/doc/polybar/_sources/user/fonts/nerd-fonts.rst.txt
+-- Installing: /usr/share/doc/polybar/_sources/user/ipc.rst.txt
+-- Installing: /usr/share/doc/polybar/_sources/user/modules
+-- Installing: /usr/share/doc/polybar/_sources/user/modules/defs.rst.txt
+-- Installing: /usr/share/doc/polybar/_sources/user/modules/index.rst.txt
+-- Installing: /usr/share/doc/polybar/_sources/user/modules/tray.rst.txt
+-- Installing: /usr/share/doc/polybar/index.html
+-- Installing: /usr/share/doc/polybar/man
+-- Installing: /usr/share/doc/polybar/man/polybar-msg.1.html
+-- Installing: /usr/share/doc/polybar/man/polybar.1.html
+-- Installing: /usr/share/doc/polybar/man/polybar.5.html
+-- Installing: /usr/share/doc/polybar/migration
+-- Installing: /usr/share/doc/polybar/migration/3.7
+-- Installing: /usr/share/doc/polybar/migration/3.7/index.html
+-- Installing: /usr/share/doc/polybar/migration/3.7/tray.html
+-- Installing: /usr/share/doc/polybar/migration/index.html
+-- Installing: /usr/share/doc/polybar/user
+-- Installing: /usr/share/doc/polybar/user/actions.html
+-- Installing: /usr/share/doc/polybar/user/default-config.html
+-- Installing: /usr/share/doc/polybar/user/fonts
+-- Installing: /usr/share/doc/polybar/user/fonts/index.html
+-- Installing: /usr/share/doc/polybar/user/fonts/nerd-fonts.html
+-- Installing: /usr/share/doc/polybar/user/ipc.html
+-- Installing: /usr/share/doc/polybar/user/modules
+-- Installing: /usr/share/doc/polybar/user/modules/defs.html
+-- Installing: /usr/share/doc/polybar/user/modules/index.html
+-- Installing: /usr/share/doc/polybar/user/modules/tray.html
+-- Installing: /usr/share/doc/polybar/genindex.html
+-- Installing: /usr/share/doc/polybar/search.html
+-- Installing: /usr/share/doc/polybar/_images
+-- Installing: /usr/share/doc/polybar/_images/default.png
+-- Installing: /usr/share/doc/polybar/_images/bad.png
+-- Installing: /usr/share/doc/polybar/_images/good.png
+-- Installing: /usr/share/doc/polybar/_downloads
+-- Installing: /usr/share/doc/polybar/_downloads/38589f3a5b1e8e2eca835f956b204e0e
+-- Installing: /usr/share/doc/polybar/_downloads/38589f3a5b1e8e2eca835f956b204e0e/config.ini
+-- Installing: /usr/share/doc/polybar/_static
+-- Installing: /usr/share/doc/polybar/_static/pygments.css
+-- Installing: /usr/share/doc/polybar/_static/basic.css
+-- Installing: /usr/share/doc/polybar/_static/documentation_options.js
+-- Installing: /usr/share/doc/polybar/_static/file.png
+-- Installing: /usr/share/doc/polybar/_static/language_data.js
+-- Installing: /usr/share/doc/polybar/_static/minus.png
+-- Installing: /usr/share/doc/polybar/_static/plus.png
+-- Installing: /usr/share/doc/polybar/_static/_sphinx_javascript_frameworks_compat.js
+-- Installing: /usr/share/doc/polybar/_static/doctools.js
+-- Installing: /usr/share/doc/polybar/_static/jquery.js
+-- Installing: /usr/share/doc/polybar/_static/searchtools.js
+-- Installing: /usr/share/doc/polybar/_static/sphinx_highlight.js
+-- Installing: /usr/share/doc/polybar/_static/underscore.js
+-- Installing: /usr/share/doc/polybar/_static/alabaster.css
+-- Installing: /usr/share/doc/polybar/_static/custom.css
+-- Installing: /usr/share/doc/polybar/_static/forkme_right_darkblue_121621.png
+-- Installing: /usr/share/doc/polybar/_static/nerd-fonts
+-- Installing: /usr/share/doc/polybar/_static/nerd-fonts/bad.png
+-- Installing: /usr/share/doc/polybar/_static/nerd-fonts/good.png
+-- Installing: /usr/share/doc/polybar/_static/banner-dark-mode.png
+-- Installing: /usr/share/doc/polybar/_static/banner.png
+-- Installing: /usr/share/doc/polybar/_static/default.png
+-- Installing: /usr/share/doc/polybar/searchindex.js
+-- Installing: /usr/share/doc/polybar/objects.inv
+-- Installing: /usr/share/doc/polybar/CHANGELOG.md
+-- Installing: /usr/share/doc/polybar/examples/config.ini
+-- Installing: /usr/share/man/man1/polybar.1
+-- Installing: /usr/share/man/man1/polybar-msg.1
+-- Installing: /usr/share/man/man5/polybar.5
+-- Installing: /usr/share/bash-completion/completions/polybar
+-- Installing: /usr/share/zsh/site-functions/_polybar
+-- Installing: /usr/share/zsh/site-functions/_polybar_msg
+-- Installing: /usr/bin/polybar
+-- Installing: /usr/bin/polybar-msg
+./install.sh: line 52: meson: command not found
+./install.sh: line 53: ninja: command not found
+sudo: ninja: command not found
+Cloning into '/home/fl4sh/.powerlevel10k'...
+Cloning into '/root/.powerlevel10k'...
+Selecting previously unselected package lsd.
+(Reading database ... 590638 files and directories currently installed.)
+Preparing to unpack /home/fl4sh/AutoBspwm/lsd.deb ...
+Unpacking lsd (0.22.0) ...
+Setting up lsd (0.22.0) ...
+'/home/fl4sh/AutoBspwm/fonts/HNF/3270-Medium Nerd Font Complete Mono.otf' -> '/usr/local/share/fonts/3270-Medium Nerd Font Complete Mono.otf'
+'/home/fl4sh/AutoBspwm/fonts/HNF/3270-Medium Nerd Font Complete Mono.ttf' -> '/usr/local/share/fonts/3270-Medium Nerd Font Complete Mono.ttf'
+'/home/fl4sh/AutoBspwm/fonts/HNF/3270-Medium Nerd Font Complete Mono Windows Compatible.otf' -> '/usr/local/share/fonts/3270-Medium Nerd Font Complete Mono Windows Compatible.otf'
+'/home/fl4sh/AutoBspwm/fonts/HNF/3270-Medium Nerd Font Complete Mono Windows Compatible.ttf' -> '/usr/local/share/fonts/3270-Medium Nerd Font Complete Mono Windows Compatible.ttf'
+'/home/fl4sh/AutoBspwm/fonts/HNF/3270-Medium Nerd Font Complete.otf' -> '/usr/local/share/fonts/3270-Medium Nerd Font Complete.otf'
+'/home/fl4sh/AutoBspwm/fonts/HNF/3270-Medium Nerd Font Complete.ttf' -> '/usr/local/share/fonts/3270-Medium Nerd Font Complete.ttf'
+'/home/fl4sh/AutoBspwm/fonts/HNF/3270-Medium Nerd Font Complete Windows Compatible.otf' -> '/usr/local/share/fonts/3270-Medium Nerd Font Complete Windows Compatible.otf'
+'/home/fl4sh/AutoBspwm/fonts/HNF/3270-Medium Nerd Font Complete Windows Compatible.ttf' -> '/usr/local/share/fonts/3270-Medium Nerd Font Complete Windows Compatible.ttf'
+'/home/fl4sh/AutoBspwm/fonts/HNF/3270 Narrow Nerd Font Complete Mono.otf' -> '/usr/local/share/fonts/3270 Narrow Nerd Font Complete Mono.otf'
+'/home/fl4sh/AutoBspwm/fonts/HNF/3270 Narrow Nerd Font Complete Mono.ttf' -> '/usr/local/share/fonts/3270 Narrow Nerd Font Complete Mono.ttf'
+'/home/fl4sh/AutoBspwm/fonts/HNF/3270 Narrow Nerd Font Complete Mono Windows Compatible.otf' -> '/usr/local/share/fonts/3270 Narrow Nerd Font Complete Mono Windows Compatible.otf'
+'/home/fl4sh/AutoBspwm/fonts/HNF/3270 Narrow Nerd Font Complete Mono Windows Compatible.ttf' -> '/usr/local/share/fonts/3270 Narrow Nerd Font Complete Mono Windows Compatible.ttf'
+'/home/fl4sh/AutoBspwm/fonts/HNF/3270 Narrow Nerd Font Complete.otf' -> '/usr/local/share/fonts/3270 Narrow Nerd Font Complete.otf'
+'/home/fl4sh/AutoBspwm/fonts/HNF/3270 Narrow Nerd Font Complete.ttf' -> '/usr/local/share/fonts/3270 Narrow Nerd Font Complete.ttf'
+'/home/fl4sh/AutoBspwm/fonts/HNF/3270 Narrow Nerd Font Complete Windows Compatible.otf' -> '/usr/local/share/fonts/3270 Narrow Nerd Font Complete Windows Compatible.otf'
+'/home/fl4sh/AutoBspwm/fonts/HNF/3270 Narrow Nerd Font Complete Windows Compatible.ttf' -> '/usr/local/share/fonts/3270 Narrow Nerd Font Complete Windows Compatible.ttf'
+'/home/fl4sh/AutoBspwm/fonts/HNF/3270 Semi-Narrow Nerd Font Complete Mono.otf' -> '/usr/local/share/fonts/3270 Semi-Narrow Nerd Font Complete Mono.otf'
+'/home/fl4sh/AutoBspwm/fonts/HNF/3270 Semi-Narrow Nerd Font Complete Mono.ttf' -> '/usr/local/share/fonts/3270 Semi-Narrow Nerd Font Complete Mono.ttf'
+'/home/fl4sh/AutoBspwm/fonts/HNF/3270 Semi-Narrow Nerd Font Complete Mono Windows Compatible.otf' -> '/usr/local/share/fonts/3270 Semi-Narrow Nerd Font Complete Mono Windows Compatible.otf'
+'/home/fl4sh/AutoBspwm/fonts/HNF/3270 Semi-Narrow Nerd Font Complete Mono Windows Compatible.ttf' -> '/usr/local/share/fonts/3270 Semi-Narrow Nerd Font Complete Mono Windows Compatible.ttf'
+'/home/fl4sh/AutoBspwm/fonts/HNF/3270 Semi-Narrow Nerd Font Complete.otf' -> '/usr/local/share/fonts/3270 Semi-Narrow Nerd Font Complete.otf'
+'/home/fl4sh/AutoBspwm/fonts/HNF/3270 Semi-Narrow Nerd Font Complete.ttf' -> '/usr/local/share/fonts/3270 Semi-Narrow Nerd Font Complete.ttf'
+'/home/fl4sh/AutoBspwm/fonts/HNF/3270 Semi-Narrow Nerd Font Complete Windows Compatible.otf' -> '/usr/local/share/fonts/3270 Semi-Narrow Nerd Font Complete Windows Compatible.otf'
+'/home/fl4sh/AutoBspwm/fonts/HNF/3270 Semi-Narrow Nerd Font Complete Windows Compatible.ttf' -> '/usr/local/share/fonts/3270 Semi-Narrow Nerd Font Complete Windows Compatible.ttf'
+'/home/fl4sh/AutoBspwm/fonts/HNF/Hack Bold Italic Nerd Font Complete Mono.ttf' -> '/usr/local/share/fonts/Hack Bold Italic Nerd Font Complete Mono.ttf'
+'/home/fl4sh/AutoBspwm/fonts/HNF/Hack Bold Italic Nerd Font Complete Mono Windows Compatible.ttf' -> '/usr/local/share/fonts/Hack Bold Italic Nerd Font Complete Mono Windows Compatible.ttf'
+'/home/fl4sh/AutoBspwm/fonts/HNF/Hack Bold Italic Nerd Font Complete.ttf' -> '/usr/local/share/fonts/Hack Bold Italic Nerd Font Complete.ttf'
+'/home/fl4sh/AutoBspwm/fonts/HNF/Hack Bold Italic Nerd Font Complete Windows Compatible.ttf' -> '/usr/local/share/fonts/Hack Bold Italic Nerd Font Complete Windows Compatible.ttf'
+'/home/fl4sh/AutoBspwm/fonts/HNF/Hack Bold Nerd Font Complete Mono.ttf' -> '/usr/local/share/fonts/Hack Bold Nerd Font Complete Mono.ttf'
+'/home/fl4sh/AutoBspwm/fonts/HNF/Hack Bold Nerd Font Complete Mono Windows Compatible.ttf' -> '/usr/local/share/fonts/Hack Bold Nerd Font Complete Mono Windows Compatible.ttf'
+'/home/fl4sh/AutoBspwm/fonts/HNF/Hack Bold Nerd Font Complete.ttf' -> '/usr/local/share/fonts/Hack Bold Nerd Font Complete.ttf'
+'/home/fl4sh/AutoBspwm/fonts/HNF/Hack Bold Nerd Font Complete Windows Compatible.ttf' -> '/usr/local/share/fonts/Hack Bold Nerd Font Complete Windows Compatible.ttf'
+'/home/fl4sh/AutoBspwm/fonts/HNF/Hack Italic Nerd Font Complete Mono.ttf' -> '/usr/local/share/fonts/Hack Italic Nerd Font Complete Mono.ttf'
+'/home/fl4sh/AutoBspwm/fonts/HNF/Hack Italic Nerd Font Complete Mono Windows Compatible.ttf' -> '/usr/local/share/fonts/Hack Italic Nerd Font Complete Mono Windows Compatible.ttf'
+'/home/fl4sh/AutoBspwm/fonts/HNF/Hack Italic Nerd Font Complete.ttf' -> '/usr/local/share/fonts/Hack Italic Nerd Font Complete.ttf'
+'/home/fl4sh/AutoBspwm/fonts/HNF/Hack Italic Nerd Font Complete Windows Compatible.ttf' -> '/usr/local/share/fonts/Hack Italic Nerd Font Complete Windows Compatible.ttf'
+'/home/fl4sh/AutoBspwm/fonts/HNF/Hack Regular Nerd Font Complete Mono.ttf' -> '/usr/local/share/fonts/Hack Regular Nerd Font Complete Mono.ttf'
+'/home/fl4sh/AutoBspwm/fonts/HNF/Hack Regular Nerd Font Complete Mono Windows Compatible.ttf' -> '/usr/local/share/fonts/Hack Regular Nerd Font Complete Mono Windows Compatible.ttf'
+'/home/fl4sh/AutoBspwm/fonts/HNF/Hack Regular Nerd Font Complete.ttf' -> '/usr/local/share/fonts/Hack Regular Nerd Font Complete.ttf'
+'/home/fl4sh/AutoBspwm/fonts/HNF/Hack Regular Nerd Font Complete Windows Compatible.ttf' -> '/usr/local/share/fonts/Hack Regular Nerd Font Complete Windows Compatible.ttf'
+'/home/fl4sh/AutoBspwm/fonts/HNF/Hurmit Bold Nerd Font Complete Mono.otf' -> '/usr/local/share/fonts/Hurmit Bold Nerd Font Complete Mono.otf'
+'/home/fl4sh/AutoBspwm/fonts/HNF/Hurmit Bold Nerd Font Complete Mono Windows Compatible.otf' -> '/usr/local/share/fonts/Hurmit Bold Nerd Font Complete Mono Windows Compatible.otf'
+'/home/fl4sh/AutoBspwm/fonts/HNF/Hurmit Bold Nerd Font Complete.otf' -> '/usr/local/share/fonts/Hurmit Bold Nerd Font Complete.otf'
+'/home/fl4sh/AutoBspwm/fonts/HNF/Hurmit Bold Nerd Font Complete Windows Compatible.otf' -> '/usr/local/share/fonts/Hurmit Bold Nerd Font Complete Windows Compatible.otf'
+'/home/fl4sh/AutoBspwm/fonts/HNF/Hurmit Light Nerd Font Complete Mono.otf' -> '/usr/local/share/fonts/Hurmit Light Nerd Font Complete Mono.otf'
+'/home/fl4sh/AutoBspwm/fonts/HNF/Hurmit Light Nerd Font Complete Mono Windows Compatible.otf' -> '/usr/local/share/fonts/Hurmit Light Nerd Font Complete Mono Windows Compatible.otf'
+'/home/fl4sh/AutoBspwm/fonts/HNF/Hurmit Light Nerd Font Complete.otf' -> '/usr/local/share/fonts/Hurmit Light Nerd Font Complete.otf'
+'/home/fl4sh/AutoBspwm/fonts/HNF/Hurmit Light Nerd Font Complete Windows Compatible.otf' -> '/usr/local/share/fonts/Hurmit Light Nerd Font Complete Windows Compatible.otf'
+'/home/fl4sh/AutoBspwm/fonts/HNF/Hurmit Medium Nerd Font Complete Mono.otf' -> '/usr/local/share/fonts/Hurmit Medium Nerd Font Complete Mono.otf'
+'/home/fl4sh/AutoBspwm/fonts/HNF/Hurmit Medium Nerd Font Complete Mono Windows Compatible.otf' -> '/usr/local/share/fonts/Hurmit Medium Nerd Font Complete Mono Windows Compatible.otf'
+'/home/fl4sh/AutoBspwm/fonts/HNF/Hurmit Medium Nerd Font Complete.otf' -> '/usr/local/share/fonts/Hurmit Medium Nerd Font Complete.otf'
+'/home/fl4sh/AutoBspwm/fonts/HNF/Hurmit Medium Nerd Font Complete Windows Compatible.otf' -> '/usr/local/share/fonts/Hurmit Medium Nerd Font Complete Windows Compatible.otf'
+'/home/fl4sh/AutoBspwm/fonts/HNF/LICENSE.txt' -> '/usr/local/share/fonts/LICENSE.txt'
+'/home/fl4sh/AutoBspwm/fonts/HNF/readme.md' -> '/usr/local/share/fonts/readme.md'
+'/home/fl4sh/AutoBspwm/Config/polybar/fonts/feather.ttf' -> '/usr/share/fonts/truetype/feather.ttf'
+'/home/fl4sh/AutoBspwm/Config/polybar/fonts/Helvetica_BoldOblique.ttf' -> '/usr/share/fonts/truetype/Helvetica_BoldOblique.ttf'
+'/home/fl4sh/AutoBspwm/Config/polybar/fonts/Helvetica_Bold.ttf' -> '/usr/share/fonts/truetype/Helvetica_Bold.ttf'
+'/home/fl4sh/AutoBspwm/Config/polybar/fonts/helvetica_compressed_5871d14b6903a.otf' -> '/usr/share/fonts/truetype/helvetica_compressed_5871d14b6903a.otf'
+'/home/fl4sh/AutoBspwm/Config/polybar/fonts/helvetica_light_587ebe5a59211.ttf' -> '/usr/share/fonts/truetype/helvetica_light_587ebe5a59211.ttf'
+'/home/fl4sh/AutoBspwm/Config/polybar/fonts/helvetica_rounded_bold_5871d05ead8de.otf' -> '/usr/share/fonts/truetype/helvetica_rounded_bold_5871d05ead8de.otf'
+'/home/fl4sh/AutoBspwm/Config/polybar/fonts/Helvetica.ttf' -> '/usr/share/fonts/truetype/Helvetica.ttf'
+'/home/fl4sh/AutoBspwm/Config/polybar/fonts/HurmitNerdFontComplete_Mono.otf' -> '/usr/share/fonts/truetype/HurmitNerdFontComplete_Mono.otf'
+'/home/fl4sh/AutoBspwm/Config/polybar/fonts/Iosevka Nerd Font Complete.ttf' -> '/usr/share/fonts/truetype/Iosevka Nerd Font Complete.ttf'
+'/home/fl4sh/AutoBspwm/Wallpaper/a.png' -> '/home/fl4sh/Wallpaper/a.png'
+'/home/fl4sh/AutoBspwm/Wallpaper/archkali.png' -> '/home/fl4sh/Wallpaper/archkali.png'
+'/home/fl4sh/AutoBspwm/Wallpaper/b.png' -> '/home/fl4sh/Wallpaper/b.png'
+'/home/fl4sh/AutoBspwm/Wallpaper/purple-tree.jpg' -> '/home/fl4sh/Wallpaper/purple-tree.jpg'
+'/home/fl4sh/AutoBspwm/Wallpaper/s4vitar.jpg' -> '/home/fl4sh/Wallpaper/s4vitar.jpg'
+'/home/fl4sh/AutoBspwm/Wallpaper/s4vitar.png' -> '/home/fl4sh/Wallpaper/s4vitar.png'
+'/home/fl4sh/AutoBspwm/Wallpaper/test.png' -> '/home/fl4sh/Wallpaper/test.png'
+'/home/fl4sh/AutoBspwm/Wallpaper/wall-05.png' -> '/home/fl4sh/Wallpaper/wall-05.png'
+'/home/fl4sh/AutoBspwm/Wallpaper/wallpaperarch.png' -> '/home/fl4sh/Wallpaper/wallpaperarch.png'
+'/home/fl4sh/AutoBspwm/Config/bin' -> '/home/fl4sh/.config/bin'
+'/home/fl4sh/AutoBspwm/Config/bin/ethernet_status.sh' -> '/home/fl4sh/.config/bin/ethernet_status.sh'
+'/home/fl4sh/AutoBspwm/Config/bin/htb_status.sh' -> '/home/fl4sh/.config/bin/htb_status.sh'
+'/home/fl4sh/AutoBspwm/Config/bin/htb_target.sh' -> '/home/fl4sh/.config/bin/htb_target.sh'
+'/home/fl4sh/AutoBspwm/Config/bin/target' -> '/home/fl4sh/.config/bin/target'
+'/home/fl4sh/AutoBspwm/Config/bspwm' -> '/home/fl4sh/.config/bspwm'
+'/home/fl4sh/AutoBspwm/Config/bspwm/bspwmrc' -> '/home/fl4sh/.config/bspwm/bspwmrc'
+'/home/fl4sh/AutoBspwm/Config/bspwm/scripts' -> '/home/fl4sh/.config/bspwm/scripts'
+'/home/fl4sh/AutoBspwm/Config/bspwm/scripts/bspwm_resize' -> '/home/fl4sh/.config/bspwm/scripts/bspwm_resize'
+'/home/fl4sh/AutoBspwm/Config/kitty' -> '/home/fl4sh/.config/kitty'
+'/home/fl4sh/AutoBspwm/Config/kitty/color.ini' -> '/home/fl4sh/.config/kitty/color.ini'
+'/home/fl4sh/AutoBspwm/Config/kitty/kitty.conf' -> '/home/fl4sh/.config/kitty/kitty.conf'
+'/home/fl4sh/AutoBspwm/Config/picom' -> '/home/fl4sh/.config/picom'
+'/home/fl4sh/AutoBspwm/Config/picom/picom.conf' -> '/home/fl4sh/.config/picom/picom.conf'
+'/home/fl4sh/AutoBspwm/Config/polybar' -> '/home/fl4sh/.config/polybar'
+'/home/fl4sh/AutoBspwm/Config/polybar/colors.ini' -> '/home/fl4sh/.config/polybar/colors.ini'
+'/home/fl4sh/AutoBspwm/Config/polybar/colors_dark.ini' -> '/home/fl4sh/.config/polybar/colors_dark.ini'
+'/home/fl4sh/AutoBspwm/Config/polybar/colors_light.ini' -> '/home/fl4sh/.config/polybar/colors_light.ini'
+'/home/fl4sh/AutoBspwm/Config/polybar/config' -> '/home/fl4sh/.config/polybar/config'
+'/home/fl4sh/AutoBspwm/Config/polybar/current.ini' -> '/home/fl4sh/.config/polybar/current.ini'
+'/home/fl4sh/AutoBspwm/Config/polybar/fonts' -> '/home/fl4sh/.config/polybar/fonts'
+'/home/fl4sh/AutoBspwm/Config/polybar/fonts/Helvetica.ttf' -> '/home/fl4sh/.config/polybar/fonts/Helvetica.ttf'
+'/home/fl4sh/AutoBspwm/Config/polybar/fonts/Helvetica_Bold.ttf' -> '/home/fl4sh/.config/polybar/fonts/Helvetica_Bold.ttf'
+'/home/fl4sh/AutoBspwm/Config/polybar/fonts/Helvetica_BoldOblique.ttf' -> '/home/fl4sh/.config/polybar/fonts/Helvetica_BoldOblique.ttf'
+'/home/fl4sh/AutoBspwm/Config/polybar/fonts/HurmitNerdFontComplete_Mono.otf' -> '/home/fl4sh/.config/polybar/fonts/HurmitNerdFontComplete_Mono.otf'
+'/home/fl4sh/AutoBspwm/Config/polybar/fonts/Iosevka Nerd Font Complete.ttf' -> '/home/fl4sh/.config/polybar/fonts/Iosevka Nerd Font Complete.ttf'
+'/home/fl4sh/AutoBspwm/Config/polybar/fonts/feather.ttf' -> '/home/fl4sh/.config/polybar/fonts/feather.ttf'
+'/home/fl4sh/AutoBspwm/Config/polybar/fonts/helvetica_compressed_5871d14b6903a.otf' -> '/home/fl4sh/.config/polybar/fonts/helvetica_compressed_5871d14b6903a.otf'
+'/home/fl4sh/AutoBspwm/Config/polybar/fonts/helvetica_light_587ebe5a59211.ttf' -> '/home/fl4sh/.config/polybar/fonts/helvetica_light_587ebe5a59211.ttf'
+'/home/fl4sh/AutoBspwm/Config/polybar/fonts/helvetica_rounded_bold_5871d05ead8de.otf' -> '/home/fl4sh/.config/polybar/fonts/helvetica_rounded_bold_5871d05ead8de.otf'
+'/home/fl4sh/AutoBspwm/Config/polybar/launch.sh' -> '/home/fl4sh/.config/polybar/launch.sh'
+'/home/fl4sh/AutoBspwm/Config/polybar/scripts' -> '/home/fl4sh/.config/polybar/scripts'
+'/home/fl4sh/AutoBspwm/Config/polybar/scripts/launcher' -> '/home/fl4sh/.config/polybar/scripts/launcher'
+'/home/fl4sh/AutoBspwm/Config/polybar/scripts/powermenu' -> '/home/fl4sh/.config/polybar/scripts/powermenu'
+'/home/fl4sh/AutoBspwm/Config/polybar/scripts/powermenu_alt' -> '/home/fl4sh/.config/polybar/scripts/powermenu_alt'
+'/home/fl4sh/AutoBspwm/Config/polybar/scripts/themes' -> '/home/fl4sh/.config/polybar/scripts/themes'
+'/home/fl4sh/AutoBspwm/Config/polybar/scripts/themes/colors.rasi' -> '/home/fl4sh/.config/polybar/scripts/themes/colors.rasi'
+'/home/fl4sh/AutoBspwm/Config/polybar/scripts/themes/colors_dark.rasi' -> '/home/fl4sh/.config/polybar/scripts/themes/colors_dark.rasi'
+'/home/fl4sh/AutoBspwm/Config/polybar/scripts/themes/colors_light.rasi' -> '/home/fl4sh/.config/polybar/scripts/themes/colors_light.rasi'
+'/home/fl4sh/AutoBspwm/Config/polybar/scripts/themes/launcher.rasi' -> '/home/fl4sh/.config/polybar/scripts/themes/launcher.rasi'
+'/home/fl4sh/AutoBspwm/Config/polybar/scripts/themes/powermenu.rasi' -> '/home/fl4sh/.config/polybar/scripts/themes/powermenu.rasi'
+'/home/fl4sh/AutoBspwm/Config/polybar/scripts/themes/powermenu_alt.rasi' -> '/home/fl4sh/.config/polybar/scripts/themes/powermenu_alt.rasi'
+'/home/fl4sh/AutoBspwm/Config/polybar/workspace.ini' -> '/home/fl4sh/.config/polybar/workspace.ini'
+'/home/fl4sh/AutoBspwm/Config/sxhkd' -> '/home/fl4sh/.config/sxhkd'
+'/home/fl4sh/AutoBspwm/Config/sxhkd/sxhkdrc' -> '/home/fl4sh/.config/sxhkd/sxhkdrc'
+'/home/fl4sh/AutoBspwm/kitty' -> '/opt/kitty'
+'/home/fl4sh/AutoBspwm/kitty/bin' -> '/opt/kitty/bin'
+'/home/fl4sh/AutoBspwm/kitty/bin/kitty' -> '/opt/kitty/bin/kitty'
+'/home/fl4sh/AutoBspwm/kitty/lib' -> '/opt/kitty/lib'
+'/home/fl4sh/AutoBspwm/kitty/lib/cacert.pem' -> '/opt/kitty/lib/cacert.pem'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions' -> '/opt/kitty/lib/kitty-extensions'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/_asyncio.so' -> '/opt/kitty/lib/kitty-extensions/_asyncio.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/_bisect.so' -> '/opt/kitty/lib/kitty-extensions/_bisect.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/_blake2.so' -> '/opt/kitty/lib/kitty-extensions/_blake2.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/_bz2.so' -> '/opt/kitty/lib/kitty-extensions/_bz2.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/_codecs_cn.so' -> '/opt/kitty/lib/kitty-extensions/_codecs_cn.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/_codecs_hk.so' -> '/opt/kitty/lib/kitty-extensions/_codecs_hk.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/_codecs_iso2022.so' -> '/opt/kitty/lib/kitty-extensions/_codecs_iso2022.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/_codecs_jp.so' -> '/opt/kitty/lib/kitty-extensions/_codecs_jp.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/_codecs_kr.so' -> '/opt/kitty/lib/kitty-extensions/_codecs_kr.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/_codecs_tw.so' -> '/opt/kitty/lib/kitty-extensions/_codecs_tw.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/_contextvars.so' -> '/opt/kitty/lib/kitty-extensions/_contextvars.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/_crypt.so' -> '/opt/kitty/lib/kitty-extensions/_crypt.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/_csv.so' -> '/opt/kitty/lib/kitty-extensions/_csv.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/_ctypes.so' -> '/opt/kitty/lib/kitty-extensions/_ctypes.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/_ctypes_test.so' -> '/opt/kitty/lib/kitty-extensions/_ctypes_test.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/_curses.so' -> '/opt/kitty/lib/kitty-extensions/_curses.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/_curses_panel.so' -> '/opt/kitty/lib/kitty-extensions/_curses_panel.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/_datetime.so' -> '/opt/kitty/lib/kitty-extensions/_datetime.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/_decimal.so' -> '/opt/kitty/lib/kitty-extensions/_decimal.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/_elementtree.so' -> '/opt/kitty/lib/kitty-extensions/_elementtree.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/_hashlib.so' -> '/opt/kitty/lib/kitty-extensions/_hashlib.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/_heapq.so' -> '/opt/kitty/lib/kitty-extensions/_heapq.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/_json.so' -> '/opt/kitty/lib/kitty-extensions/_json.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/_lsprof.so' -> '/opt/kitty/lib/kitty-extensions/_lsprof.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/_lzma.so' -> '/opt/kitty/lib/kitty-extensions/_lzma.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/_md5.so' -> '/opt/kitty/lib/kitty-extensions/_md5.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/_multibytecodec.so' -> '/opt/kitty/lib/kitty-extensions/_multibytecodec.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/_multiprocessing.so' -> '/opt/kitty/lib/kitty-extensions/_multiprocessing.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/_opcode.so' -> '/opt/kitty/lib/kitty-extensions/_opcode.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/_pickle.so' -> '/opt/kitty/lib/kitty-extensions/_pickle.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/_posixshmem.so' -> '/opt/kitty/lib/kitty-extensions/_posixshmem.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/_posixsubprocess.so' -> '/opt/kitty/lib/kitty-extensions/_posixsubprocess.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/_queue.so' -> '/opt/kitty/lib/kitty-extensions/_queue.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/_random.so' -> '/opt/kitty/lib/kitty-extensions/_random.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/_sha1.so' -> '/opt/kitty/lib/kitty-extensions/_sha1.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/_sha256.so' -> '/opt/kitty/lib/kitty-extensions/_sha256.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/_sha3.so' -> '/opt/kitty/lib/kitty-extensions/_sha3.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/_sha512.so' -> '/opt/kitty/lib/kitty-extensions/_sha512.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/_socket.so' -> '/opt/kitty/lib/kitty-extensions/_socket.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/_sqlite3.so' -> '/opt/kitty/lib/kitty-extensions/_sqlite3.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/_ssl.so' -> '/opt/kitty/lib/kitty-extensions/_ssl.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/_statistics.so' -> '/opt/kitty/lib/kitty-extensions/_statistics.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/_struct.so' -> '/opt/kitty/lib/kitty-extensions/_struct.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/_testbuffer.so' -> '/opt/kitty/lib/kitty-extensions/_testbuffer.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/_testcapi.so' -> '/opt/kitty/lib/kitty-extensions/_testcapi.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/_testimportmultiple.so' -> '/opt/kitty/lib/kitty-extensions/_testimportmultiple.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/_testinternalcapi.so' -> '/opt/kitty/lib/kitty-extensions/_testinternalcapi.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/_testmultiphase.so' -> '/opt/kitty/lib/kitty-extensions/_testmultiphase.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/_uuid.so' -> '/opt/kitty/lib/kitty-extensions/_uuid.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/_xxsubinterpreters.so' -> '/opt/kitty/lib/kitty-extensions/_xxsubinterpreters.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/_xxtestfuzz.so' -> '/opt/kitty/lib/kitty-extensions/_xxtestfuzz.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/_zoneinfo.so' -> '/opt/kitty/lib/kitty-extensions/_zoneinfo.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/array.so' -> '/opt/kitty/lib/kitty-extensions/array.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/audioop.so' -> '/opt/kitty/lib/kitty-extensions/audioop.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/binascii.so' -> '/opt/kitty/lib/kitty-extensions/binascii.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/cmath.so' -> '/opt/kitty/lib/kitty-extensions/cmath.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/fcntl.so' -> '/opt/kitty/lib/kitty-extensions/fcntl.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/grp.so' -> '/opt/kitty/lib/kitty-extensions/grp.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/kittens.choose.subseq_matcher.so' -> '/opt/kitty/lib/kitty-extensions/kittens.choose.subseq_matcher.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/kittens.diff.diff_speedup.so' -> '/opt/kitty/lib/kitty-extensions/kittens.diff.diff_speedup.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/kittens.transfer.rsync.so' -> '/opt/kitty/lib/kitty-extensions/kittens.transfer.rsync.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/kittens.unicode_input.unicode_names.so' -> '/opt/kitty/lib/kitty-extensions/kittens.unicode_input.unicode_names.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/kitty.fast_data_types.so' -> '/opt/kitty/lib/kitty-extensions/kitty.fast_data_types.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/kitty.glfw-wayland.so' -> '/opt/kitty/lib/kitty-extensions/kitty.glfw-wayland.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/kitty.glfw-x11.so' -> '/opt/kitty/lib/kitty-extensions/kitty.glfw-x11.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/math.so' -> '/opt/kitty/lib/kitty-extensions/math.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/mmap.so' -> '/opt/kitty/lib/kitty-extensions/mmap.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/nis.so' -> '/opt/kitty/lib/kitty-extensions/nis.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/ossaudiodev.so' -> '/opt/kitty/lib/kitty-extensions/ossaudiodev.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/parser.so' -> '/opt/kitty/lib/kitty-extensions/parser.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/pyexpat.so' -> '/opt/kitty/lib/kitty-extensions/pyexpat.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/python-lib.bypy.frozen' -> '/opt/kitty/lib/kitty-extensions/python-lib.bypy.frozen'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/readline.so' -> '/opt/kitty/lib/kitty-extensions/readline.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/resource.so' -> '/opt/kitty/lib/kitty-extensions/resource.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/select.so' -> '/opt/kitty/lib/kitty-extensions/select.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/spwd.so' -> '/opt/kitty/lib/kitty-extensions/spwd.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/syslog.so' -> '/opt/kitty/lib/kitty-extensions/syslog.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/termios.so' -> '/opt/kitty/lib/kitty-extensions/termios.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/unicodedata.so' -> '/opt/kitty/lib/kitty-extensions/unicodedata.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/xxlimited.so' -> '/opt/kitty/lib/kitty-extensions/xxlimited.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty-extensions/zlib.so' -> '/opt/kitty/lib/kitty-extensions/zlib.so'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty' -> '/opt/kitty/lib/kitty'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty/logo' -> '/opt/kitty/lib/kitty/logo'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty/logo/beam-cursor.png' -> '/opt/kitty/lib/kitty/logo/beam-cursor.png'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty/logo/beam-cursor@2x.png' -> '/opt/kitty/lib/kitty/logo/beam-cursor@2x.png'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty/logo/kitty-128.png' -> '/opt/kitty/lib/kitty/logo/kitty-128.png'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty/logo/kitty.png' -> '/opt/kitty/lib/kitty/logo/kitty.png'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty/shell-integration' -> '/opt/kitty/lib/kitty/shell-integration'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty/shell-integration/bash' -> '/opt/kitty/lib/kitty/shell-integration/bash'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty/shell-integration/bash/kitty.bash' -> '/opt/kitty/lib/kitty/shell-integration/bash/kitty.bash'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty/shell-integration/fish' -> '/opt/kitty/lib/kitty/shell-integration/fish'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty/shell-integration/fish/vendor_completions.d' -> '/opt/kitty/lib/kitty/shell-integration/fish/vendor_completions.d'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty/shell-integration/fish/vendor_completions.d/clone-in-kitty.fish' -> '/opt/kitty/lib/kitty/shell-integration/fish/vendor_completions.d/clone-in-kitty.fish'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty/shell-integration/fish/vendor_completions.d/edit-in-kitty.fish' -> '/opt/kitty/lib/kitty/shell-integration/fish/vendor_completions.d/edit-in-kitty.fish'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty/shell-integration/fish/vendor_completions.d/kitty.fish' -> '/opt/kitty/lib/kitty/shell-integration/fish/vendor_completions.d/kitty.fish'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty/shell-integration/fish/vendor_conf.d' -> '/opt/kitty/lib/kitty/shell-integration/fish/vendor_conf.d'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty/shell-integration/fish/vendor_conf.d/kitty-shell-integration.fish' -> '/opt/kitty/lib/kitty/shell-integration/fish/vendor_conf.d/kitty-shell-integration.fish'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty/shell-integration/ssh' -> '/opt/kitty/lib/kitty/shell-integration/ssh'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty/shell-integration/ssh/__pycache__' -> '/opt/kitty/lib/kitty/shell-integration/ssh/__pycache__'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty/shell-integration/ssh/__pycache__/askpass.cpython-39.opt-1.pyc' -> '/opt/kitty/lib/kitty/shell-integration/ssh/__pycache__/askpass.cpython-39.opt-1.pyc'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty/shell-integration/ssh/__pycache__/askpass.cpython-39.opt-2.pyc' -> '/opt/kitty/lib/kitty/shell-integration/ssh/__pycache__/askpass.cpython-39.opt-2.pyc'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty/shell-integration/ssh/__pycache__/askpass.cpython-39.pyc' -> '/opt/kitty/lib/kitty/shell-integration/ssh/__pycache__/askpass.cpython-39.pyc'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty/shell-integration/ssh/askpass.py' -> '/opt/kitty/lib/kitty/shell-integration/ssh/askpass.py'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty/shell-integration/ssh/bootstrap-utils.sh' -> '/opt/kitty/lib/kitty/shell-integration/ssh/bootstrap-utils.sh'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty/shell-integration/ssh/bootstrap.py' -> '/opt/kitty/lib/kitty/shell-integration/ssh/bootstrap.py'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty/shell-integration/ssh/bootstrap.sh' -> '/opt/kitty/lib/kitty/shell-integration/ssh/bootstrap.sh'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty/shell-integration/ssh/kitty' -> '/opt/kitty/lib/kitty/shell-integration/ssh/kitty'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty/shell-integration/zsh' -> '/opt/kitty/lib/kitty/shell-integration/zsh'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty/shell-integration/zsh/.zshenv' -> '/opt/kitty/lib/kitty/shell-integration/zsh/.zshenv'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty/shell-integration/zsh/completions' -> '/opt/kitty/lib/kitty/shell-integration/zsh/completions'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty/shell-integration/zsh/completions/_kitty' -> '/opt/kitty/lib/kitty/shell-integration/zsh/completions/_kitty'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty/shell-integration/zsh/kitty-integration' -> '/opt/kitty/lib/kitty/shell-integration/zsh/kitty-integration'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty/shell-integration/zsh/kitty.zsh' -> '/opt/kitty/lib/kitty/shell-integration/zsh/kitty.zsh'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty/terminfo' -> '/opt/kitty/lib/kitty/terminfo'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty/terminfo/kitty.termcap' -> '/opt/kitty/lib/kitty/terminfo/kitty.termcap'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty/terminfo/kitty.terminfo' -> '/opt/kitty/lib/kitty/terminfo/kitty.terminfo'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty/terminfo/x' -> '/opt/kitty/lib/kitty/terminfo/x'
+'/home/fl4sh/AutoBspwm/kitty/lib/kitty/terminfo/x/xterm-kitty' -> '/opt/kitty/lib/kitty/terminfo/x/xterm-kitty'
+'/home/fl4sh/AutoBspwm/kitty/lib/libbrotlicommon.so.1' -> '/opt/kitty/lib/libbrotlicommon.so.1'
+'/home/fl4sh/AutoBspwm/kitty/lib/libbrotlidec.so.1' -> '/opt/kitty/lib/libbrotlidec.so.1'
+'/home/fl4sh/AutoBspwm/kitty/lib/libbrotlienc.so.1' -> '/opt/kitty/lib/libbrotlienc.so.1'
+'/home/fl4sh/AutoBspwm/kitty/lib/libbz2.so.1.0' -> '/opt/kitty/lib/libbz2.so.1.0'
+'/home/fl4sh/AutoBspwm/kitty/lib/libcrypt.so.2' -> '/opt/kitty/lib/libcrypt.so.2'
+'/home/fl4sh/AutoBspwm/kitty/lib/libcrypto.so.1.1' -> '/opt/kitty/lib/libcrypto.so.1.1'
+'/home/fl4sh/AutoBspwm/kitty/lib/libexpat.so.1' -> '/opt/kitty/lib/libexpat.so.1'
+'/home/fl4sh/AutoBspwm/kitty/lib/libffi.so.7' -> '/opt/kitty/lib/libffi.so.7'
+'/home/fl4sh/AutoBspwm/kitty/lib/libfreetype.so.6' -> '/opt/kitty/lib/libfreetype.so.6'
+'/home/fl4sh/AutoBspwm/kitty/lib/libglib-2.0.so.0' -> '/opt/kitty/lib/libglib-2.0.so.0'
+'/home/fl4sh/AutoBspwm/kitty/lib/libgraphite2.so.3' -> '/opt/kitty/lib/libgraphite2.so.3'
+'/home/fl4sh/AutoBspwm/kitty/lib/libharfbuzz.so.0' -> '/opt/kitty/lib/libharfbuzz.so.0'
+'/home/fl4sh/AutoBspwm/kitty/lib/libiconv.so.2' -> '/opt/kitty/lib/libiconv.so.2'
+'/home/fl4sh/AutoBspwm/kitty/lib/liblcms2.so.2' -> '/opt/kitty/lib/liblcms2.so.2'
+'/home/fl4sh/AutoBspwm/kitty/lib/liblzma.so.5' -> '/opt/kitty/lib/liblzma.so.5'
+'/home/fl4sh/AutoBspwm/kitty/lib/libncursesw.so.6' -> '/opt/kitty/lib/libncursesw.so.6'
+'/home/fl4sh/AutoBspwm/kitty/lib/libpcre.so.1' -> '/opt/kitty/lib/libpcre.so.1'
+'/home/fl4sh/AutoBspwm/kitty/lib/libpng16.so.16' -> '/opt/kitty/lib/libpng16.so.16'
+'/home/fl4sh/AutoBspwm/kitty/lib/libpython3.9.so.1.0' -> '/opt/kitty/lib/libpython3.9.so.1.0'
+'/home/fl4sh/AutoBspwm/kitty/lib/libreadline.so.8' -> '/opt/kitty/lib/libreadline.so.8'
+'/home/fl4sh/AutoBspwm/kitty/lib/librsync.so.2' -> '/opt/kitty/lib/librsync.so.2'
+'/home/fl4sh/AutoBspwm/kitty/lib/libsqlite3.so.0' -> '/opt/kitty/lib/libsqlite3.so.0'
+'/home/fl4sh/AutoBspwm/kitty/lib/libssl.so.1.1' -> '/opt/kitty/lib/libssl.so.1.1'
+'/home/fl4sh/AutoBspwm/kitty/lib/libwayland-client.so.0' -> '/opt/kitty/lib/libwayland-client.so.0'
+'/home/fl4sh/AutoBspwm/kitty/lib/libwayland-cursor.so.0' -> '/opt/kitty/lib/libwayland-cursor.so.0'
+'/home/fl4sh/AutoBspwm/kitty/lib/libxkbcommon-x11.so.0' -> '/opt/kitty/lib/libxkbcommon-x11.so.0'
+'/home/fl4sh/AutoBspwm/kitty/lib/libxkbcommon.so.0' -> '/opt/kitty/lib/libxkbcommon.so.0'
+'/home/fl4sh/AutoBspwm/kitty/lib/libz.so.1' -> '/opt/kitty/lib/libz.so.1'
+'/home/fl4sh/AutoBspwm/kitty/share' -> '/opt/kitty/share'
+'/home/fl4sh/AutoBspwm/kitty/share/applications' -> '/opt/kitty/share/applications'
+'/home/fl4sh/AutoBspwm/kitty/share/applications/kitty-open.desktop' -> '/opt/kitty/share/applications/kitty-open.desktop'
+'/home/fl4sh/AutoBspwm/kitty/share/applications/kitty.desktop' -> '/opt/kitty/share/applications/kitty.desktop'
+'/home/fl4sh/AutoBspwm/kitty/share/doc' -> '/opt/kitty/share/doc'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty' -> '/opt/kitty/share/doc/kitty'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html' -> '/opt/kitty/share/doc/kitty/html'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/.buildinfo' -> '/opt/kitty/share/doc/kitty/html/.buildinfo'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/.nojekyll' -> '/opt/kitty/share/doc/kitty/html/.nojekyll'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_downloads' -> '/opt/kitty/share/doc/kitty/html/_downloads'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_downloads/433dadebd0bf504f8b008985378086ce' -> '/opt/kitty/share/doc/kitty/html/_downloads/433dadebd0bf504f8b008985378086ce'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_downloads/433dadebd0bf504f8b008985378086ce/kitty.conf' -> '/opt/kitty/share/doc/kitty/html/_downloads/433dadebd0bf504f8b008985378086ce/kitty.conf'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_downloads/a489ebbb52d84eeb19a12b2fda7debda' -> '/opt/kitty/share/doc/kitty/html/_downloads/a489ebbb52d84eeb19a12b2fda7debda'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_downloads/a489ebbb52d84eeb19a12b2fda7debda/diff.conf' -> '/opt/kitty/share/doc/kitty/html/_downloads/a489ebbb52d84eeb19a12b2fda7debda/diff.conf'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_images' -> '/opt/kitty/share/doc/kitty/html/_images'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_images/diff.png' -> '/opt/kitty/share/doc/kitty/html/_images/diff.png'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_images/hints_mode.png' -> '/opt/kitty/share/doc/kitty/html/_images/hints_mode.png'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_images/panel.png' -> '/opt/kitty/share/doc/kitty/html/_images/panel.png'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_images/remote_file.png' -> '/opt/kitty/share/doc/kitty/html/_images/remote_file.png'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_images/screenshot.png' -> '/opt/kitty/share/doc/kitty/html/_images/screenshot.png'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_images/select-window.png' -> '/opt/kitty/share/doc/kitty/html/_images/select-window.png'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_images/splits.png' -> '/opt/kitty/share/doc/kitty/html/_images/splits.png'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_images/themes.png' -> '/opt/kitty/share/doc/kitty/html/_images/themes.png'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_images/transfer.png' -> '/opt/kitty/share/doc/kitty/html/_images/transfer.png'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_images/unicode.png' -> '/opt/kitty/share/doc/kitty/html/_images/unicode.png'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_images/window-logo.png' -> '/opt/kitty/share/doc/kitty/html/_images/window-logo.png'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_sources' -> '/opt/kitty/share/doc/kitty/html/_sources'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_sources/actions.rst.txt' -> '/opt/kitty/share/doc/kitty/html/_sources/actions.rst.txt'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_sources/binary.rst.txt' -> '/opt/kitty/share/doc/kitty/html/_sources/binary.rst.txt'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_sources/build.rst.txt' -> '/opt/kitty/share/doc/kitty/html/_sources/build.rst.txt'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_sources/changelog.rst.txt' -> '/opt/kitty/share/doc/kitty/html/_sources/changelog.rst.txt'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_sources/color-stack.rst.txt' -> '/opt/kitty/share/doc/kitty/html/_sources/color-stack.rst.txt'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_sources/conf.rst.txt' -> '/opt/kitty/share/doc/kitty/html/_sources/conf.rst.txt'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_sources/deccara.rst.txt' -> '/opt/kitty/share/doc/kitty/html/_sources/deccara.rst.txt'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_sources/desktop-notifications.rst.txt' -> '/opt/kitty/share/doc/kitty/html/_sources/desktop-notifications.rst.txt'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_sources/faq.rst.txt' -> '/opt/kitty/share/doc/kitty/html/_sources/faq.rst.txt'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_sources/file-transfer-protocol.rst.txt' -> '/opt/kitty/share/doc/kitty/html/_sources/file-transfer-protocol.rst.txt'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_sources/generated' -> '/opt/kitty/share/doc/kitty/html/_sources/generated'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_sources/generated/launch.rst.txt' -> '/opt/kitty/share/doc/kitty/html/_sources/generated/launch.rst.txt'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_sources/generated/rc.rst.txt' -> '/opt/kitty/share/doc/kitty/html/_sources/generated/rc.rst.txt'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_sources/generated/ssh-copy.rst.txt' -> '/opt/kitty/share/doc/kitty/html/_sources/generated/ssh-copy.rst.txt'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_sources/glossary.rst.txt' -> '/opt/kitty/share/doc/kitty/html/_sources/glossary.rst.txt'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_sources/graphics-protocol.rst.txt' -> '/opt/kitty/share/doc/kitty/html/_sources/graphics-protocol.rst.txt'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_sources/index.rst.txt' -> '/opt/kitty/share/doc/kitty/html/_sources/index.rst.txt'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_sources/integrations.rst.txt' -> '/opt/kitty/share/doc/kitty/html/_sources/integrations.rst.txt'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_sources/invocation.rst.txt' -> '/opt/kitty/share/doc/kitty/html/_sources/invocation.rst.txt'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_sources/keyboard-protocol.rst.txt' -> '/opt/kitty/share/doc/kitty/html/_sources/keyboard-protocol.rst.txt'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_sources/kittens' -> '/opt/kitty/share/doc/kitty/html/_sources/kittens'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_sources/kittens/broadcast.rst.txt' -> '/opt/kitty/share/doc/kitty/html/_sources/kittens/broadcast.rst.txt'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_sources/kittens/clipboard.rst.txt' -> '/opt/kitty/share/doc/kitty/html/_sources/kittens/clipboard.rst.txt'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_sources/kittens/custom.rst.txt' -> '/opt/kitty/share/doc/kitty/html/_sources/kittens/custom.rst.txt'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_sources/kittens/diff.rst.txt' -> '/opt/kitty/share/doc/kitty/html/_sources/kittens/diff.rst.txt'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_sources/kittens/hints.rst.txt' -> '/opt/kitty/share/doc/kitty/html/_sources/kittens/hints.rst.txt'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_sources/kittens/hyperlinked_grep.rst.txt' -> '/opt/kitty/share/doc/kitty/html/_sources/kittens/hyperlinked_grep.rst.txt'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_sources/kittens/icat.rst.txt' -> '/opt/kitty/share/doc/kitty/html/_sources/kittens/icat.rst.txt'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_sources/kittens/panel.rst.txt' -> '/opt/kitty/share/doc/kitty/html/_sources/kittens/panel.rst.txt'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_sources/kittens/query_terminal.rst.txt' -> '/opt/kitty/share/doc/kitty/html/_sources/kittens/query_terminal.rst.txt'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_sources/kittens/remote_file.rst.txt' -> '/opt/kitty/share/doc/kitty/html/_sources/kittens/remote_file.rst.txt'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_sources/kittens/ssh.rst.txt' -> '/opt/kitty/share/doc/kitty/html/_sources/kittens/ssh.rst.txt'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_sources/kittens/themes.rst.txt' -> '/opt/kitty/share/doc/kitty/html/_sources/kittens/themes.rst.txt'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_sources/kittens/transfer.rst.txt' -> '/opt/kitty/share/doc/kitty/html/_sources/kittens/transfer.rst.txt'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_sources/kittens/unicode_input.rst.txt' -> '/opt/kitty/share/doc/kitty/html/_sources/kittens/unicode_input.rst.txt'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_sources/kittens_intro.rst.txt' -> '/opt/kitty/share/doc/kitty/html/_sources/kittens_intro.rst.txt'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_sources/launch.rst.txt' -> '/opt/kitty/share/doc/kitty/html/_sources/launch.rst.txt'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_sources/layouts.rst.txt' -> '/opt/kitty/share/doc/kitty/html/_sources/layouts.rst.txt'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_sources/marks.rst.txt' -> '/opt/kitty/share/doc/kitty/html/_sources/marks.rst.txt'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_sources/open_actions.rst.txt' -> '/opt/kitty/share/doc/kitty/html/_sources/open_actions.rst.txt'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_sources/overview.rst.txt' -> '/opt/kitty/share/doc/kitty/html/_sources/overview.rst.txt'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_sources/performance.rst.txt' -> '/opt/kitty/share/doc/kitty/html/_sources/performance.rst.txt'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_sources/pipe.rst.txt' -> '/opt/kitty/share/doc/kitty/html/_sources/pipe.rst.txt'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_sources/press-mentions.rst.txt' -> '/opt/kitty/share/doc/kitty/html/_sources/press-mentions.rst.txt'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_sources/protocol-extensions.rst.txt' -> '/opt/kitty/share/doc/kitty/html/_sources/protocol-extensions.rst.txt'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_sources/quickstart.rst.txt' -> '/opt/kitty/share/doc/kitty/html/_sources/quickstart.rst.txt'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_sources/rc_protocol.rst.txt' -> '/opt/kitty/share/doc/kitty/html/_sources/rc_protocol.rst.txt'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_sources/remote-control.rst.txt' -> '/opt/kitty/share/doc/kitty/html/_sources/remote-control.rst.txt'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_sources/shell-integration.rst.txt' -> '/opt/kitty/share/doc/kitty/html/_sources/shell-integration.rst.txt'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_sources/support.rst.txt' -> '/opt/kitty/share/doc/kitty/html/_sources/support.rst.txt'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_sources/underlines.rst.txt' -> '/opt/kitty/share/doc/kitty/html/_sources/underlines.rst.txt'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_sources/unscroll.rst.txt' -> '/opt/kitty/share/doc/kitty/html/_sources/unscroll.rst.txt'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_static' -> '/opt/kitty/share/doc/kitty/html/_static'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_static/_sphinx_javascript_frameworks_compat.js' -> '/opt/kitty/share/doc/kitty/html/_static/_sphinx_javascript_frameworks_compat.js'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_static/basic.css' -> '/opt/kitty/share/doc/kitty/html/_static/basic.css'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_static/check-solid.svg' -> '/opt/kitty/share/doc/kitty/html/_static/check-solid.svg'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_static/clipboard.min.js' -> '/opt/kitty/share/doc/kitty/html/_static/clipboard.min.js'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_static/copy-button.svg' -> '/opt/kitty/share/doc/kitty/html/_static/copy-button.svg'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_static/copybutton.css' -> '/opt/kitty/share/doc/kitty/html/_static/copybutton.css'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_static/copybutton.js' -> '/opt/kitty/share/doc/kitty/html/_static/copybutton.js'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_static/copybutton_funcs.js' -> '/opt/kitty/share/doc/kitty/html/_static/copybutton_funcs.js'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_static/custom.css' -> '/opt/kitty/share/doc/kitty/html/_static/custom.css'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_static/custom.js' -> '/opt/kitty/share/doc/kitty/html/_static/custom.js'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_static/debug.css' -> '/opt/kitty/share/doc/kitty/html/_static/debug.css'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_static/doctools.js' -> '/opt/kitty/share/doc/kitty/html/_static/doctools.js'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_static/documentation_options.js' -> '/opt/kitty/share/doc/kitty/html/_static/documentation_options.js'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_static/file.png' -> '/opt/kitty/share/doc/kitty/html/_static/file.png'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_static/jquery-3.5.1.js' -> '/opt/kitty/share/doc/kitty/html/_static/jquery-3.5.1.js'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_static/jquery-3.6.0.js' -> '/opt/kitty/share/doc/kitty/html/_static/jquery-3.6.0.js'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_static/jquery.js' -> '/opt/kitty/share/doc/kitty/html/_static/jquery.js'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_static/kitty.svg' -> '/opt/kitty/share/doc/kitty/html/_static/kitty.svg'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_static/language_data.js' -> '/opt/kitty/share/doc/kitty/html/_static/language_data.js'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_static/minus.png' -> '/opt/kitty/share/doc/kitty/html/_static/minus.png'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_static/plus.png' -> '/opt/kitty/share/doc/kitty/html/_static/plus.png'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_static/poster.png' -> '/opt/kitty/share/doc/kitty/html/_static/poster.png'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_static/pygments.css' -> '/opt/kitty/share/doc/kitty/html/_static/pygments.css'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_static/scripts' -> '/opt/kitty/share/doc/kitty/html/_static/scripts'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_static/scripts/furo-extensions.js' -> '/opt/kitty/share/doc/kitty/html/_static/scripts/furo-extensions.js'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_static/scripts/furo.js' -> '/opt/kitty/share/doc/kitty/html/_static/scripts/furo.js'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_static/scripts/furo.js.LICENSE.txt' -> '/opt/kitty/share/doc/kitty/html/_static/scripts/furo.js.LICENSE.txt'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_static/scripts/furo.js.map' -> '/opt/kitty/share/doc/kitty/html/_static/scripts/furo.js.map'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_static/searchtools.js' -> '/opt/kitty/share/doc/kitty/html/_static/searchtools.js'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_static/skeleton.css' -> '/opt/kitty/share/doc/kitty/html/_static/skeleton.css'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_static/styles' -> '/opt/kitty/share/doc/kitty/html/_static/styles'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_static/styles/furo-extensions.css' -> '/opt/kitty/share/doc/kitty/html/_static/styles/furo-extensions.css'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_static/styles/furo-extensions.css.map' -> '/opt/kitty/share/doc/kitty/html/_static/styles/furo-extensions.css.map'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_static/styles/furo.css' -> '/opt/kitty/share/doc/kitty/html/_static/styles/furo.css'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_static/styles/furo.css.map' -> '/opt/kitty/share/doc/kitty/html/_static/styles/furo.css.map'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_static/tabs.css' -> '/opt/kitty/share/doc/kitty/html/_static/tabs.css'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_static/tabs.js' -> '/opt/kitty/share/doc/kitty/html/_static/tabs.js'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_static/underscore-1.13.1.js' -> '/opt/kitty/share/doc/kitty/html/_static/underscore-1.13.1.js'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/_static/underscore.js' -> '/opt/kitty/share/doc/kitty/html/_static/underscore.js'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/actions.html' -> '/opt/kitty/share/doc/kitty/html/actions.html'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/binary.html' -> '/opt/kitty/share/doc/kitty/html/binary.html'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/build.html' -> '/opt/kitty/share/doc/kitty/html/build.html'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/changelog.html' -> '/opt/kitty/share/doc/kitty/html/changelog.html'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/color-stack.html' -> '/opt/kitty/share/doc/kitty/html/color-stack.html'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/conf.html' -> '/opt/kitty/share/doc/kitty/html/conf.html'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/deccara.html' -> '/opt/kitty/share/doc/kitty/html/deccara.html'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/desktop-notifications.html' -> '/opt/kitty/share/doc/kitty/html/desktop-notifications.html'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/faq.html' -> '/opt/kitty/share/doc/kitty/html/faq.html'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/file-transfer-protocol.html' -> '/opt/kitty/share/doc/kitty/html/file-transfer-protocol.html'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/generated' -> '/opt/kitty/share/doc/kitty/html/generated'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/generated/launch.html' -> '/opt/kitty/share/doc/kitty/html/generated/launch.html'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/generated/rc.html' -> '/opt/kitty/share/doc/kitty/html/generated/rc.html'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/generated/ssh-copy.html' -> '/opt/kitty/share/doc/kitty/html/generated/ssh-copy.html'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/genindex.html' -> '/opt/kitty/share/doc/kitty/html/genindex.html'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/glossary.html' -> '/opt/kitty/share/doc/kitty/html/glossary.html'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/graphics-protocol.html' -> '/opt/kitty/share/doc/kitty/html/graphics-protocol.html'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/index.html' -> '/opt/kitty/share/doc/kitty/html/index.html'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/integrations.html' -> '/opt/kitty/share/doc/kitty/html/integrations.html'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/invocation.html' -> '/opt/kitty/share/doc/kitty/html/invocation.html'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/keyboard-protocol.html' -> '/opt/kitty/share/doc/kitty/html/keyboard-protocol.html'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/kittens' -> '/opt/kitty/share/doc/kitty/html/kittens'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/kittens/broadcast.html' -> '/opt/kitty/share/doc/kitty/html/kittens/broadcast.html'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/kittens/clipboard.html' -> '/opt/kitty/share/doc/kitty/html/kittens/clipboard.html'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/kittens/custom.html' -> '/opt/kitty/share/doc/kitty/html/kittens/custom.html'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/kittens/diff.html' -> '/opt/kitty/share/doc/kitty/html/kittens/diff.html'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/kittens/hints.html' -> '/opt/kitty/share/doc/kitty/html/kittens/hints.html'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/kittens/hyperlinked_grep.html' -> '/opt/kitty/share/doc/kitty/html/kittens/hyperlinked_grep.html'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/kittens/icat.html' -> '/opt/kitty/share/doc/kitty/html/kittens/icat.html'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/kittens/panel.html' -> '/opt/kitty/share/doc/kitty/html/kittens/panel.html'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/kittens/query_terminal.html' -> '/opt/kitty/share/doc/kitty/html/kittens/query_terminal.html'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/kittens/remote_file.html' -> '/opt/kitty/share/doc/kitty/html/kittens/remote_file.html'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/kittens/ssh.html' -> '/opt/kitty/share/doc/kitty/html/kittens/ssh.html'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/kittens/themes.html' -> '/opt/kitty/share/doc/kitty/html/kittens/themes.html'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/kittens/transfer.html' -> '/opt/kitty/share/doc/kitty/html/kittens/transfer.html'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/kittens/unicode_input.html' -> '/opt/kitty/share/doc/kitty/html/kittens/unicode_input.html'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/kittens_intro.html' -> '/opt/kitty/share/doc/kitty/html/kittens_intro.html'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/launch.html' -> '/opt/kitty/share/doc/kitty/html/launch.html'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/layouts.html' -> '/opt/kitty/share/doc/kitty/html/layouts.html'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/marks.html' -> '/opt/kitty/share/doc/kitty/html/marks.html'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/objects.inv' -> '/opt/kitty/share/doc/kitty/html/objects.inv'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/open_actions.html' -> '/opt/kitty/share/doc/kitty/html/open_actions.html'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/overview.html' -> '/opt/kitty/share/doc/kitty/html/overview.html'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/performance.html' -> '/opt/kitty/share/doc/kitty/html/performance.html'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/pipe.html' -> '/opt/kitty/share/doc/kitty/html/pipe.html'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/press-mentions.html' -> '/opt/kitty/share/doc/kitty/html/press-mentions.html'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/protocol-extensions.html' -> '/opt/kitty/share/doc/kitty/html/protocol-extensions.html'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/quickstart.html' -> '/opt/kitty/share/doc/kitty/html/quickstart.html'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/rc_protocol.html' -> '/opt/kitty/share/doc/kitty/html/rc_protocol.html'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/remote-control.html' -> '/opt/kitty/share/doc/kitty/html/remote-control.html'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/search.html' -> '/opt/kitty/share/doc/kitty/html/search.html'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/searchindex.js' -> '/opt/kitty/share/doc/kitty/html/searchindex.js'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/shell-integration.html' -> '/opt/kitty/share/doc/kitty/html/shell-integration.html'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/support.html' -> '/opt/kitty/share/doc/kitty/html/support.html'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/underlines.html' -> '/opt/kitty/share/doc/kitty/html/underlines.html'
+'/home/fl4sh/AutoBspwm/kitty/share/doc/kitty/html/unscroll.html' -> '/opt/kitty/share/doc/kitty/html/unscroll.html'
+'/home/fl4sh/AutoBspwm/kitty/share/icons' -> '/opt/kitty/share/icons'
+'/home/fl4sh/AutoBspwm/kitty/share/icons/hicolor' -> '/opt/kitty/share/icons/hicolor'
+'/home/fl4sh/AutoBspwm/kitty/share/icons/hicolor/256x256' -> '/opt/kitty/share/icons/hicolor/256x256'
+'/home/fl4sh/AutoBspwm/kitty/share/icons/hicolor/256x256/apps' -> '/opt/kitty/share/icons/hicolor/256x256/apps'
+'/home/fl4sh/AutoBspwm/kitty/share/icons/hicolor/256x256/apps/kitty.png' -> '/opt/kitty/share/icons/hicolor/256x256/apps/kitty.png'
+'/home/fl4sh/AutoBspwm/kitty/share/icons/hicolor/scalable' -> '/opt/kitty/share/icons/hicolor/scalable'
+'/home/fl4sh/AutoBspwm/kitty/share/icons/hicolor/scalable/apps' -> '/opt/kitty/share/icons/hicolor/scalable/apps'
+'/home/fl4sh/AutoBspwm/kitty/share/icons/hicolor/scalable/apps/kitty.svg' -> '/opt/kitty/share/icons/hicolor/scalable/apps/kitty.svg'
+'/home/fl4sh/AutoBspwm/kitty/share/man' -> '/opt/kitty/share/man'
+'/home/fl4sh/AutoBspwm/kitty/share/man/man1' -> '/opt/kitty/share/man/man1'
+'/home/fl4sh/AutoBspwm/kitty/share/man/man1/kitty.1' -> '/opt/kitty/share/man/man1/kitty.1'
+'/home/fl4sh/AutoBspwm/kitty/share/man/man5' -> '/opt/kitty/share/man/man5'
+'/home/fl4sh/AutoBspwm/kitty/share/man/man5/kitty.conf.5' -> '/opt/kitty/share/man/man5/kitty.conf.5'
+'/home/fl4sh/AutoBspwm/kitty/share/terminfo' -> '/opt/kitty/share/terminfo'
+'/home/fl4sh/AutoBspwm/kitty/share/terminfo/x' -> '/opt/kitty/share/terminfo/x'
+'/home/fl4sh/AutoBspwm/kitty/share/terminfo/x/xterm-kitty' -> '/opt/kitty/share/terminfo/x/xterm-kitty'
+'/home/fl4sh/AutoBspwm/.zshrc' -> '/home/fl4sh/.zshrc'
+'/home/fl4sh/AutoBspwm/.p10k.zsh' -> '/home/fl4sh/.p10k.zsh'
+'/home/fl4sh/AutoBspwm/.p10k.zsh-root' -> '/root/.p10k.zsh'
+'/home/fl4sh/AutoBspwm/scripts/whichSystem.py' -> '/usr/local/bin/whichSystem.py'
+'/home/fl4sh/AutoBspwm/scripts/screenshot' -> '/usr/local/bin/screenshot'
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  golang-1.22-go golang-1.22-src graphicsmagick libglapi-mesa
+  libgraphicsmagick-q16-3 lp-solve
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  zsh zsh-common
+Suggested packages:
+  zsh-doc
+The following NEW packages will be installed:
+  zsh zsh-autosuggestions zsh-common zsh-syntax-highlighting
+0 upgraded, 4 newly installed, 0 to remove and 1 not upgraded.
+Need to get 5,111 kB of archives.
+After this operation, 19.5 MB of additional disk space will be used.
+Get:1 https://deb.parrot.sh/parrot lory/main amd64 zsh-common all 5.9-4 [4,147 kB]
+Get:2 https://deb.parrot.sh/parrot lory/main amd64 zsh amd64 5.9-4+b7 [907 kB]
+Get:3 https://deb.parrot.sh/parrot lory/main amd64 zsh-autosuggestions all 0.7.0-1 [16.7 kB]
+Get:4 https://deb.parrot.sh/parrot lory/main amd64 zsh-syntax-highlighting all 0.7.1-2 [40.0 kB]
+Fetched 5,111 kB in 8s (616 kB/s)
+Selecting previously unselected package zsh-common.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 590646 files and directories currently installed.)
+Preparing to unpack .../zsh-common_5.9-4_all.deb ...
+Unpacking zsh-common (5.9-4) ...
+Selecting previously unselected package zsh.
+Preparing to unpack .../zsh_5.9-4+b7_amd64.deb ...
+Unpacking zsh (5.9-4+b7) ...
+Selecting previously unselected package zsh-autosuggestions.
+Preparing to unpack .../zsh-autosuggestions_0.7.0-1_all.deb ...
+Unpacking zsh-autosuggestions (0.7.0-1) ...
+Selecting previously unselected package zsh-syntax-highlighting.
+Preparing to unpack .../zsh-syntax-highlighting_0.7.1-2_all.deb ...
+Unpacking zsh-syntax-highlighting (0.7.1-2) ...
+Setting up zsh-common (5.9-4) ...
+Processing triggers for debianutils (5.7-0.5~deb12u1) ...
+Processing triggers for menu (2.1.49) ...
+Processing triggers for man-db (2.11.2-2) ...
+Setting up zsh (5.9-4+b7) ...
+Setting up zsh-autosuggestions (0.7.0-1) ...
+Setting up zsh-syntax-highlighting (0.7.1-2) ...
+Scanning application launchers
+Removing duplicate launchers or broken launchers
+ [-] Missing executable file kcmshell5 at launcher /usr/share/applications/kcm_trash.desktop
+Launchers are updated
+
+Redirecting output to ‘wget-log’.
+'/root/.zshrc' -> '/home/fl4sh/.zshrc'
+[H[2J[3JSelecciona un theme en el theme selector
+Selecciona un theme en el theme selector
+Selecciona un theme en el theme selector
+Selecciona un theme en el theme selector
+Selecciona un theme en el theme selector
+Selecciona un theme en el theme selector
